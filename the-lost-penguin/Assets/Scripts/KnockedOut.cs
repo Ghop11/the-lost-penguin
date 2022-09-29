@@ -5,26 +5,16 @@ using UnityEngine;
 
 public class KnockedOut : MonoBehaviour
 {
-    public Animator amin;
-    public float waitBeforeRespawning;
 
     private void OnTriggerEnter(Collider other)
     {
+        // Write more code to NPC health, knocked-out, projectile, 
         if (other.tag == "Player")
         {
-            // pc.updateKnockedOutStatus(true);
-            PlayerController.instance.updateKnockedOutStatus(true);
-            amin.SetBool("isKnockedOut", true);
-            StartCoroutine(ResetKnockedOutStatus());
+            
+            // other.gameObject.GetComponent<CharacterController>().Move(Vector3.up - other.transform.position);
+            LevelManager.instance.Respawn();
         }
-    }
-
-
-    private IEnumerator ResetKnockedOutStatus()
-    {
-        yield return new WaitForSeconds(waitBeforeRespawning);
-        amin.SetBool("isKnockedOut", false);
-        PlayerController.instance.updateKnockedOutStatus(false);
     }
 
 }
