@@ -6,6 +6,21 @@ using UnityEngine;
 public class KnockedOut : MonoBehaviour
 {
 
+    // public static KnockedOut instance;
+    //
+    //
+    // public void Awake()
+    // {
+    //     instance = this;
+    // }
+    //
+    //
+    // public void knockOutPlayer()
+    // {
+    //     LevelManager.instance.Respawn();
+    // }
+
+
     private void OnTriggerEnter(Collider other)
     {
         // Write more code to NPC health, knocked-out, projectile, 
