@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    
 
     // Start is called before the first frame update
     void Start()
@@ -18,36 +17,42 @@ public class EnemyController : MonoBehaviour
     {
         
     }
-    
-    private void OnTriggerEnter(Collider other)
+
+    public void FixedUpdate()
     {
-        // Write more code to NPC health, knocked-out, projectile, 
-        if (other.tag == "Player")
-        {
 
-            if (gameObject.tag == "EnemyHead")
-            {
-                Destroy(transform.parent.gameObject);
-            }
-
-            if (gameObject.tag == "EnemyBody")
-            {
-                LevelManager.instance.Respawn();
-            }
-
-   
-        
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        print("OnCollisionEnter");
     }
 
 
-    private IEnumerator Stall()
-    {
-        yield return new WaitForSeconds(5f);
-    }
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     // Write more code to NPC health, knocked-out, projectile, 
+    //     if (other.tag == "Player")
+    //     {
+    //
+    //         if (gameObject.tag == "EnemyHead")
+    //         {
+    //             Destroy(transform.parent.gameObject);
+    //         }
+    //
+    //         if (gameObject.tag == "EnemyBody")
+    //         {
+    //             LevelManager.instance.Respawn();
+    //         }
+    //
+    //
+    //     
+    //     }
+    // }
+    //
+    // private void OnCollisionEnter(Collision collision)
+    // {
+    //     print("OnCollisionEnter");
+    // }
+    //
+    //
+    // private IEnumerator Stall()
+    // {
+    //     yield return new WaitForSeconds(5f);
+    // }
 }
