@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIController : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class UIController : MonoBehaviour
     private bool isFadingToBlack;
     private bool isFadingFromBlack;
     public float fadeSpeed = 2f;
+    
+    // for health bar
+    public Slider healthBar;
+    public TMP_Text healthText;
     
     private void Awake()
     {
@@ -41,7 +46,6 @@ public class UIController : MonoBehaviour
             fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b,
                 Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
         }
-        
     }
 
 
@@ -58,10 +62,17 @@ public class UIController : MonoBehaviour
     }
     
     
-    
-    
-    
-    
-    
-    
+    // update Health UI
+    public void UpdateHealthDisplay(int currentHealth)
+    {
+        healthText.text = "Health: " + currentHealth + "/" + PlayerHealth.instance.maxHealth;
+        
+        healthBar.maxValue = PlayerHealth.instance.maxHealth;
+        healthBar.value = currentHealth;
+    }
+
+
+
+
+
 }
