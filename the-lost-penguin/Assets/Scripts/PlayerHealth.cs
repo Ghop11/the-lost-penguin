@@ -11,6 +11,9 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
     public int maxHealth;
 
+    private float noDamageCounter;
+    public float noDamageLength = 1f;
+
     public void Awake()
     {
         instance = this;
@@ -26,21 +29,27 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (noDamageCounter > 0)
+        {
+            noDamageCounter -= Time.deltaTime;
+        }
     }
 
     public void DamagePlayer(int value = 10)
     {
-        if (currentHealth - value <= 0)
+        if (noDamageCounter <= 0)
         {
-            // Kento is knocked out
-            KnockedOut();
+            noDamageCounter = noDamageLength;
+            
+            // Need to add some kind of display that shows Kento took damage and additional damage does not take place
+        
+            if (currentHealth - value <= 0)
+            {
+                // Kento is knocked out
+                KnockedOut();
+            }
+            currentHealth -= value;
         }
-        currentHealth -= value;
-
-
-
-
     }
 
     public void FillHealth()
