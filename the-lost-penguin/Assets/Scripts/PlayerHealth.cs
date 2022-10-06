@@ -14,6 +14,8 @@ public class PlayerHealth : MonoBehaviour
     private float noDamageCounter;
     public float noDamageLength = 1f;
 
+    public int lives;
+
     public void Awake()
     {
         instance = this;
@@ -24,6 +26,8 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        UIController.instance.UpdateHealthDisplay(currentHealth); // updating UI to have default values
+        UIController.instance.UpdatePlayersLives(0); //  showing how many lives a player has
     }
 
     // Update is called once per frame
@@ -49,6 +53,7 @@ public class PlayerHealth : MonoBehaviour
                 KnockedOut();
             }
             currentHealth -= value;
+            UIController.instance.UpdateHealthDisplay(currentHealth);
         }
     }
 
@@ -68,6 +73,7 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
+        UIController.instance.UpdateHealthDisplay(currentHealth);
     }
     
     // Need a function to add a players life
@@ -95,7 +101,8 @@ public class PlayerHealth : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         FillHealth();
-
+        UIController.instance.UpdateHealthDisplay(currentHealth);
+        UIController.instance.UpdatePlayersLives(-1);
     }
 
 }
