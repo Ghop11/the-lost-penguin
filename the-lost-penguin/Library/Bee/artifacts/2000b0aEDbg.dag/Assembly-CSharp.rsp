@@ -363,7 +363,9 @@
 "Assets/Scripts/KnockedOut.cs"
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerShot.cs"
+"Assets/Scripts/testHealthDamage.cs"
 "Assets/Scripts/UIController.cs"
 "Assets/testisGrounded.cs"
 -langversion:9.0
