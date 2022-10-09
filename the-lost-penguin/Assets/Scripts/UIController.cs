@@ -21,6 +21,10 @@ public class UIController : MonoBehaviour
     public Slider healthBar;
     public TMP_Text healthText;
     public TMP_Text lives;
+
+    // exp bar
+    public Slider expBar;
+    public TMP_Text expText;
     
     private void Awake()
     {
@@ -80,6 +84,13 @@ public class UIController : MonoBehaviour
         lives.text = "Lives: " + (PlayerHealth.instance.lives + value);
     }
 
-
+    //update experience
+    public void UpdateExpDisplay(int exp)
+    {
+        int addedExp = PlayerStats.instance.currentExp + exp;
+        expText.text = $"Exp: {addedExp} / {PlayerStats.instance.expForNextLevel}";
+        expBar.maxValue = PlayerStats.instance.expForNextLevel;
+        expBar.value = addedExp;
+    }
 
 }

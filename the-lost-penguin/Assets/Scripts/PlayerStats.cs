@@ -5,10 +5,14 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
 
+    public static PlayerStats instance;
     //next task, show exp on the screen, near hp
-    public int level = 1;
+    public int kentoLevel = 1;
     public int currentExp = 0;
-    public int[] expToNextLevel;
+    //the exp value that is needed to be reached so that kento levels up
+    public int expForNextLevel;
+    //range of levels that contains data to reach sequential levels
+    public int[] expToNextLevelList;
     public int maxLevel = 10; //default
     public int baseEXP = 5; //default
     public PlayerHealth playerHealth; //need to access max hp
@@ -24,17 +28,20 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        expToNextLevel = new int[maxLevel];
+        expToNextLevelList = new int[maxLevel];
         //set exp level up requirements
-        for(int i = 0; i < expToNextLevel.Length; i++)
+        for(int i = 0; i < expToNextLevelList.Length; i++)
         {
             //exp needed for next level increases at a multiple of 5
             //will change in the future once we know our enemy/leveling scale
             int exp = baseEXP * i;
-            expToNextLevel[i] = exp;
+            expToNextLevelList[i] = exp;
             
         }
-        
+        expForNextLevel = expToNextLevelList[kentoLevel];
+
+        //update UI, start at 0 experience
+        UIController.instance.UpdateExpDisplay(0);
     }
 
     // Update is called once per frame
@@ -45,28 +52,35 @@ public class PlayerStats : MonoBehaviour
         //both enemy and item scripts should have an exp field to be used
     }
 
+    public void Awake()
+    {
+        instance = this;
+    }
 
+    //from either goons or collectables
     public void AddExp(int exp)
     {
         currentExp += exp;
-        if(level < maxLevel)
+        if(kentoLevel < maxLevel)
         {
-            if(currentExp >= expToNextLevel[level])
+            if(currentExp >= expToNextLevelList[kentoLevel])
             {
                 LevelUp();
                 IncreaseStats();
+                UIController.instance.UpdateExpDisplay(0);
             }
         }
-        if(level <= maxLevel)
+        if(kentoLevel <= maxLevel)
             currentExp = 0; 
     }
 
     private void LevelUp()
     {
         //put sound effect here that tells us we leveled up
-        currentExp -= expToNextLevel[level];
+        currentExp -= expToNextLevelList[kentoLevel];
         //update text on screen
-        level++;
+        kentoLevel++;
+        expForNextLevel = expToNextLevelList[kentoLevel];
     }
 
     private void IncreaseStats()
@@ -77,12 +91,4 @@ public class PlayerStats : MonoBehaviour
         playerHealth.maxHealth += 10;
         //maybe set currentHealth = maxHealth for auto healing for leveling up
     }
-
-    /*
-    my role in the game
-Items
-Item system
-Leveling up system
--Map Level Design
-    */
 }
