@@ -71,11 +71,12 @@ public class UIController : MonoBehaviour
     // update Health UI
     public void UpdateHealthDisplay(int currentHealth)
     {
-        healthText.text = "Health: " + currentHealth + "/" + PlayerHealth.instance.maxHealth;
-        
         healthBar.maxValue = PlayerHealth.instance.maxHealth;
         healthBar.value = currentHealth;
+
+        healthText.text = "Health: " + currentHealth + "/" + PlayerHealth.instance.maxHealth;      
     }
+
 
     // update lives 
     public void UpdatePlayersLives(int value)
@@ -84,13 +85,14 @@ public class UIController : MonoBehaviour
         lives.text = "Lives: " + (PlayerHealth.instance.lives + value);
     }
 
-    //update experience
-    public void UpdateExpDisplay(int exp)
+    //update experience points
+    public void UpdateExpDisplay(/*int exp*/)
     {
-        int addedExp = PlayerStats.instance.currentExp + exp;
-        expText.text = $"Exp: {addedExp} / {PlayerStats.instance.expForNextLevel}";
+        //int addedExp = PlayerStats.instance.currentExp + exp;
         expBar.maxValue = PlayerStats.instance.expForNextLevel;
-        expBar.value = addedExp;
+        expBar.value = PlayerStats.instance.currentExp;
+        expText.text = $"Exp: {PlayerStats.instance.currentExp} / {PlayerStats.instance.expForNextLevel}";
+        
     }
 
 }

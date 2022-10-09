@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-
     public static PlayerStats instance;
-    //next task, show exp on the screen, near hp
     public int kentoLevel = 1;
     public int currentExp = 0;
     //the exp value that is needed to be reached so that kento levels up
     public int expForNextLevel;
-    //range of levels that contains data to reach sequential levels
+    //range of level values for reaching next sequential levels
     public int[] expToNextLevelList;
-    public int maxLevel = 10; //default
-    public int baseEXP = 5; //default
-    public PlayerHealth playerHealth; //need to access max hp
+    public int maxLevel = 10; //default max level, could change in the future
+    private int baseEXP = 5; //default
+    //public PlayerHealth playerHealth; //need to access max hp
     public int bellySlide;
     public int throwStrength;
     public int pebbleCount = 0;
     public int maxPeppleCount = 10;
 
-    //anything else?
+    //anything else we could add?
 
 
     
@@ -41,7 +39,7 @@ public class PlayerStats : MonoBehaviour
         expForNextLevel = expToNextLevelList[kentoLevel];
 
         //update UI, start at 0 experience
-        UIController.instance.UpdateExpDisplay(0);
+        UIController.instance.UpdateExpDisplay();
     }
 
     // Update is called once per frame
@@ -50,6 +48,12 @@ public class PlayerStats : MonoBehaviour
         //when kento defeats an enemy, he should get exp
         //if he finds something, then he should get exp
         //both enemy and item scripts should have an exp field to be used
+
+        //testing, remove when done
+        if(Input.GetKey(KeyCode.J))
+        {
+            AddExp(1);
+        }
     }
 
     public void Awake()
@@ -61,16 +65,18 @@ public class PlayerStats : MonoBehaviour
     public void AddExp(int exp)
     {
         currentExp += exp;
+        UIController.instance.UpdateExpDisplay();
         if(kentoLevel < maxLevel)
         {
-            if(currentExp >= expToNextLevelList[kentoLevel])
+            if(currentExp >= expToNextLevelList[kentoLevel - 1])
             {
                 LevelUp();
                 IncreaseStats();
-                UIController.instance.UpdateExpDisplay(0);
+                UIController.instance.UpdateExpDisplay();
             }
         }
-        if(kentoLevel <= maxLevel)
+        //if we're at max level, don't gain anymore exp
+        if(kentoLevel >= maxLevel)
             currentExp = 0; 
     }
 
@@ -85,10 +91,12 @@ public class PlayerStats : MonoBehaviour
 
     private void IncreaseStats()
     {
-        bellySlide++; //distance or damage?
+        bellySlide++; //slide distance or damage?
         throwStrength++; //distance and damage
         maxPeppleCount += 2;
-        playerHealth.maxHealth += 10;
-        //maybe set currentHealth = maxHealth for auto healing for leveling up
+        PlayerHealth.instance.maxHealth += 10;
+        //update max health display, as well as some healing for leveling up
+        UIController.instance.UpdateHealthDisplay(PlayerHealth.instance.currentHealth + 5);
+        
     }
 }
