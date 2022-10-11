@@ -8,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
 {
 
     public static PlayerHealth instance;
-    private int currentHealth;
+    //made public so it can be adjusted from PlayerStats.cs
+    public int currentHealth;
     public int maxHealth;
 
     private float noDamageCounter;
