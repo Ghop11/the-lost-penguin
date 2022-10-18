@@ -8,8 +8,7 @@ public class PlayerHealth : MonoBehaviour
 {
 
     public static PlayerHealth instance;
-    //made public so it can be adjusted from PlayerStats.cs
-    public int currentHealth;
+    private int currentHealth;
     public int maxHealth;
 
     private float noDamageCounter;
@@ -49,11 +48,17 @@ public class PlayerHealth : MonoBehaviour
             // Need to add some kind of display that shows Kento took damage and additional damage does not take place
         
             if (currentHealth - value <= 0)
-            {
+            {   
                 // Kento is knocked out
                 KnockedOut();
             }
+            
             currentHealth -= value;
+            //found a display issue where Kento's Health goes into the negatives
+            //if his health isn't a multiple of 10, 
+            //setting his health to be strictly 0 will fix this
+            if(currentHealth < 0)
+                currentHealth = 0;
             UIController.instance.UpdateHealthDisplay(currentHealth);
         }
     }

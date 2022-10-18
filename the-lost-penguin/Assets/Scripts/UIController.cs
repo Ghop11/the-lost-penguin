@@ -25,6 +25,10 @@ public class UIController : MonoBehaviour
     // exp bar
     public Slider expBar;
     public TMP_Text expText;
+    public TMP_Text expLevelText;
+
+    //pebbles
+    public TMP_Text pebblesText;
     
     private void Awake()
     {
@@ -91,8 +95,17 @@ public class UIController : MonoBehaviour
         //int addedExp = PlayerStats.instance.currentExp + exp;
         expBar.maxValue = PlayerStats.instance.expForNextLevel;
         expBar.value = PlayerStats.instance.currentExp;
-        expText.text = $"Exp: {PlayerStats.instance.currentExp} / {PlayerStats.instance.expForNextLevel}";
-        
+        expText.text = $"Exp: {PlayerStats.instance.currentExp} / {PlayerStats.instance.expForNextLevel}";   
+    }
+
+    public void UpdateExpLevel()
+    {
+        expLevelText.text = $"Lvl: {PlayerStats.instance.kentoLevel}";
+    }
+
+    public void UpdatePebbleCount()
+    {
+        pebblesText.text = $"Pebbles: {PlayerStats.instance.pebbleCount}/{PlayerStats.instance.maxPeppleCount}";
     }
 
 }
