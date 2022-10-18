@@ -16,7 +16,6 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector]
     private int baseEXP = 5; //default
     //public PlayerHealth playerHealth; //need to access max hp
-    public int bellySlide;
     public int throwStrength;
     public int pebbleCount = 0;
     public int maxPeppleCount = 10;
@@ -102,7 +101,6 @@ public class PlayerStats : MonoBehaviour
 
     private void IncreaseStats()
     {
-        bellySlide++; //slide distance or damage?
         throwStrength++; //distance and damage
         maxPeppleCount += 2;
 
