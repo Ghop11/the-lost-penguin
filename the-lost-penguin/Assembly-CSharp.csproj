@@ -41,10 +41,12 @@
      <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\UIController.cs" />
+     <Compile Include="Assets\Scripts\Food.cs" />
      <Compile Include="Assets\Quirky Series Vol.1 [v1.3]\Arctic Vol.1\_Scripts\Demo.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\Currency.cs" />
      <Compile Include="Assets\Scripts\KnockedOut.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
