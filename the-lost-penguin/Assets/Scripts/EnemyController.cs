@@ -61,7 +61,13 @@ public class EnemyController : MonoBehaviour
         }
     }
     
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            PlayerHealth.instance.DamagePlayer();
+        }
+    }
 
     public void FixedUpdate()
     {

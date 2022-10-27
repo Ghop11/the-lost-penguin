@@ -10573,6 +10573,7 @@ GameObject:
   - component: {fileID: 726252135}
   - component: {fileID: 726252134}
   - component: {fileID: 726252133}
+  - component: {fileID: 726252136}
   m_Layer: 0
   m_Name: SeaLoin_Goon (2)
   m_TagString: Goon
@@ -10645,6 +10646,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!136 &726252136
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726252131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1001 &727802929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14202,6 +14217,7 @@ GameObject:
   - component: {fileID: 967110500}
   - component: {fileID: 967110499}
   - component: {fileID: 967110498}
+  - component: {fileID: 967110502}
   m_Layer: 0
   m_Name: SeaLoin_Goon (1)
   m_TagString: Goon
@@ -14274,6 +14290,20 @@ Transform:
   m_Father: {fileID: 826589810}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &967110502
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967110497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1001 &972995532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16432,6 +16462,7 @@ GameObject:
   - component: {fileID: 1134084661}
   - component: {fileID: 1134084660}
   - component: {fileID: 1134084656}
+  - component: {fileID: 1134084662}
   m_Layer: 0
   m_Name: SeaLoin_Goon
   m_TagString: Goon
@@ -16504,6 +16535,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!136 &1134084662
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134084655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1001 &1137180762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34708,6 +34753,7 @@ GameObject:
   - component: {fileID: 1774210286}
   - component: {fileID: 1774210285}
   - component: {fileID: 1774210284}
+  - component: {fileID: 1774210287}
   m_Layer: 0
   m_Name: SeaLoin_Goon (3)
   m_TagString: Goon
@@ -34780,6 +34826,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!136 &1774210287
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774210282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1001 &1776173281
 PrefabInstance:
   m_ObjectHideFlags: 0

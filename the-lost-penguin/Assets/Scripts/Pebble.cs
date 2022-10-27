@@ -14,6 +14,11 @@ public class Pebble : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.tag == "Goon")
+        {
+            Destroy(collision.gameObject);
+        }
+        
         // if (collision.gameObject.tag != "Level")
         // {
         //     Destroy(collision.gameObject);
