@@ -376,9 +376,20 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Assets/isGrounded.cs"
+"Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/_Scripts/Demo.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/Currency.cs"
+"Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/KnockedOut.cs"
+"Assets/Scripts/LevelManager.cs"
+"Assets/Scripts/Pebble.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerHealth.cs"
+"Assets/Scripts/PlayerShot.cs"
+"Assets/Scripts/PlayerStats.cs"
+"Assets/Scripts/testHealthDamage.cs"
+"Assets/Scripts/UIController.cs"
+"Assets/testisGrounded.cs"
 -langversion:9.0
 
 /deterministic

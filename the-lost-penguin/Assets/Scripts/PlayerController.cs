@@ -107,7 +107,10 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.F))
             {
+                
                 amin.SetTrigger("shoot");
+                // fire pebble
+                PlayerShot.instance.FirePebble();
             }
         
             // get speed for animation:

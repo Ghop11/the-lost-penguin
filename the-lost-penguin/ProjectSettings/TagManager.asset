@@ -7,6 +7,8 @@ TagManager:
   - EnemyHead
   - EnemyBody
   - Goon
+  - pebble
+  - Level
   layers:
   - Default
   - TransparentFX
