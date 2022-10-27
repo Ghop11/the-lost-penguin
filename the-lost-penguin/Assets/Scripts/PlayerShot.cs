@@ -1,23 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerShot : MonoBehaviour
 {
-
-
-    public float moveSpeed;
-    public Rigidbody theRB;
+    public static PlayerShot instance;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform pebbleSpawnPoint;
+    public GameObject pebblePreFab;
+    public float pebbleSpeed;
+    public Rigidbody theRB;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        theRB.velocity = transform.forward * moveSpeed;
+        instance = this;
+    }
+    
+    public void FirePebble()
+    {
+
+        var pebble = Instantiate(pebblePreFab, pebbleSpawnPoint.position, pebbleSpawnPoint.rotation);
+        pebble.GetComponent<Rigidbody>().velocity = pebbleSpawnPoint.forward * pebbleSpeed;
+        print("Throwing the pebble");
     }
 }

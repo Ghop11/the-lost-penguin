@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="resolved merge conflicts">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/0176c374cc19a59dd7153333e2ed8bcb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/02052941cb58897494e5145eb8b8d8cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/08e3554505062ac5fb223f897265ce2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/0a74c2acdcb9c1f29ae8acd83a060cf6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/0a9391ca9fe931e0a0f1150bfd75b641" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/0c04da5fb11f394f740f9a13388ad911" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/0d0c01130df4d7c8501e6b146b59817a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/116029ee63c00ca01dff95b069a04e96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/15cf33a64bc84f9b6b00498f5ffe6d82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/1755639af3db0fb92bdc321ca5521aed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/17bcdc07e1527444d9fb4f3818236593" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/1952a0d3f87599263ad898a1d47b32d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/1c93dd586cc74d7c7f5720c1b7325554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/1da07c45c3dcb3cc3245d1877e8b8b7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/1ed5d4f3ce1bb35b320ef0308fa91662" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/2113e466f201b96027c5c0cfe6934784" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/290cf0dfbd7cc1e386c99fbcf5a8fe89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/2a330af90e90a6f85ad9588a86f10074" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/2bcdb393162ded714c1200aa5a55f47b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/2c59eda3140bce23fa9f9ef5a1e7457e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/2f8fd97ddbe2af6b3e31d43b13ac09d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/2fe020db3d30413cb6b9197b8c87b257" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/304f2bfc73097b051a1132520d2cea86" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/374177df3efdee5e2b8140f7cb72421e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/3aa83f5f92facf45aabed21498b743a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/3e6576e795f5916b11eab41e17a8839b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/3e6c0e8f1b1fa55b0d4b6254a644cb9e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/3fddb146aa5cc119f287fb9e23c3bb33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/43235123632e559aa1b6b4688abe039c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/44ad96781d273d9f24d0ea72300c8e78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/5360e540f1f4779bf975e38b87e3492a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/53eccb0e1ddfbba532638a5a18cea989" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/559342380842a2383720efb235a1ad3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/59a0d641c66f89e3d66f71e1cb868ba6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/5b26994a6d5cdd9a8ea77c9495a6621b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/5bd64b2813a597d134e2cc69d0765a83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/5cb9c96efe9e0fcf69bb4d4b5feb7d99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/63f018ec3d9ac079cddcedcd8886aae5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/643ade6e6f2cf90d4452a01d1a4b0bcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/65bcfb3d3bb157dafe4795a1050a7ddc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/6641dabd7cfcc12ed5288cc49bc58ac9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/67e9b12c71af24eaf93ff5726bd320b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/689546f27227330d193d1cc02ddabe75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/698963b8b5c5e4006297baab071be74d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/6b5681f3fe93222d02619cd0c81cabfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/6bacab6e889ce6bf90678c17ab9fb3c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/723948b1418b3fb77cc3256b1a6cdd6f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/735b8353835b287d126311b0a1046715" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/7675d834120c944ce7ba0aeab36b3e6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/780329ff65bd4a87e9c611ff16541686" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/84faa4d99583128c1010be238cd80d11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/864adb4b2cdac2babfd98c2d9a1e874f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/8d50ac2311727c474be4b504be40bcd6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/92f29018bad8855d34a0271a91e59a0b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/9880f33cc72d9c55b4f0a86073d5df8f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/9cb0b405a8ea48405a363fec23c36cdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/a1829dbf42e821575f14da7371870d2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/a32c70cbf1dfc728bc865e78f30ef86a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/a3900459b3d78a8c72b02a8151f4509c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/a620798260c5629825de630548419f6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/aa31dbfd776139a5e2eb4ac45d55af46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/addd3bc5932adc55e88d4e2012892219" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/b0cebb3fcee52028644fb161674aa68b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/bb8365701dd522c5c55c323227481dab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/bcd52a65633159a10050f99029b68d84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/bea93d88daefae5adabec5348fc572b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/c04a6a2bc462e02af0e4a71d744638c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/c10c92d47500d516c4f5cbfaa3f5cbba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/c1fdb5bc5cc6604623ef9cf133791d20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/c6376a7ca723fe439b9f8affec001a9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/cd9668969d8b79ddb0cbe6af771f51e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/d93cc822009630926524d37212848766" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/dd14b47a80138a888b86ab2fe2bea78b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/e663ff758054125a03ba67a25befbd7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f000ba450707667795b9520b53184d16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f094bfe0cfd2f7edcd380e38551db881" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f1f99f2380c14815fd53a3592bedd53d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f281d904c37a446dbff1be0b17e41e11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f40173ca488010e48f62bed1f855675d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f5cb979837c87efe547cc943a26e4cc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/f641ecc3428640e07c3a46fedc209987" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM_[Changes]/fc2080e3e795a4ba0a4d4ed4d3ff41eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/shelf/Uncommitted_changes_before_Merge_at_10_26_2022_6_56_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/04/04e4192c3b9f84bd8b9ae2a964c69318" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/0c/0c3bfb4f374603a18d3edb9777840374" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/12/121d90ba3835155d05ea4ffcfa34d0fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/19/1952a0d3f87599263ad898a1d47b32d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/1a/1a5aae7d049621b18860f4e56a3b19a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/1d/1d0feedf87ac65d4cbdb0d7f83251b6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/1e/1ed5d4f3ce1bb35b320ef0308fa91662" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/2f/2f8fd97ddbe2af6b3e31d43b13ac09d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/34/3486ca74a638e24e4621a3b35ca73e8c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/38/380c2121a48cf36efcbbd14c0e729132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/5e/5ee5ebc04436556d3a7cc7bee3f10611" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_81C034D939E0D6EE.mvfrm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_50C91654FF4AE867.mvfrm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ShaderCache/shadergraph/Coinb262/01/7e06c5be9d496637e4b41961333510b0.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ShaderCache/shadergraph/Crystal1cdf/03/a77f430f867da85abc5200219cbe1a2f.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ShaderCache/shadergraph/Player Limbsbc96/03/1e28482e905066b58880aa744aceada4.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ShaderCache/shadergraph/Stylised Waterf905/01/6e70b24687c38b990934a1c3428b91e5.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/ProcessJobs/b8613a84801a46c691ba1681b66ddf56.layout" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/workerlic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pebble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pebble.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Udemy_3D_Platformer_Game/Assets/Scripts/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Udemy_3D_Platformer_Game/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Currency.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/testHealthDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Unity/save/PlayerShot.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ek20Jvvu83GmPnkeTK7dbVXJ2e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\gilbe\OneDrive\Documents\GitHub\Unity\the-lost-penguin\the-lost-penguin -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\gilbe\OneDrive\Documents\GitHub\Unity\the-lost-penguin\the-lost-penguin" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="" />
+      <created>1663125038873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663125038873</updated>
+      <workItem from="1663125067792" duration="7272000" />
+      <workItem from="1663168736622" duration="3120000" />
+      <workItem from="1663607964095" duration="1197000" />
+      <workItem from="1663708737146" duration="770000" />
+      <workItem from="1663717069383" duration="50000" />
+      <workItem from="1663719709286" duration="1984000" />
+      <workItem from="1664036283903" duration="1211000" />
+      <workItem from="1664136922152" duration="8894000" />
+      <workItem from="1664241474088" duration="5322000" />
+      <workItem from="1664426417208" duration="8486000" />
+      <workItem from="1664548810529" duration="9066000" />
+      <workItem from="1664738370895" duration="3162000" />
+      <workItem from="1664931468630" duration="7769000" />
+      <workItem from="1665016738287" duration="1616000" />
+      <workItem from="1665070609230" duration="11342000" />
+      <workItem from="1666657752060" duration="1605000" />
+      <workItem from="1666828281402" duration="7084000" />
+      <workItem from="1666836297285" duration="823000" />
+      <workItem from="1666837493733" duration="1559000" />
+    </task>
+    <task id="LOCAL-00001" summary="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations">
+      <created>1663608484454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663608484454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Map level 1 - first draft - Example scene. We will need to change it up some; however, it is a good starting point. &#10;&#10;&#10;Changed the animation around and still can't get it to work. I see the param are changing in the animator and all the transitions look good. Only thing is that the animations are not displaying. Still working on that.">
+      <created>1663727653654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663727653655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: animation for idle, running, jumping added. &#10;&#10;Next push i'll put in peck (throwing projectile motion) and death (knocked out). &#10;&#10;&#10;After that push I'll be adding a few NPCs that only stays in one spot or walks around.">
+      <created>1664138211245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664138211245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: move files needed">
+      <created>1664138245179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664138245179</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Gold coins with animation, removed once collected, collection effect. &#10;&#10;Currently only 5 coins around the map. Will be adding more and a count of how many coins the player has collected">
+      <created>1664154376157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664154376157</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Rotate camera angle. &#10;&#10;rotate camera angle with key.code R and it will move to the right. Use key.code Q it will move it to the left. &#10;&#10;We can change this but for now this is how to look around the map and get a different perspective. &#10;&#10;The camera rotation transition is a too quick. Next build we can make it smoother. &#10;&#10;Any other ideas to handle it add some comments. We could have the camera follow the direction of kento, but I think this would be more of a mario 64 feel to our game.">
+      <created>1664167372542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664167372542</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Respawn script is in place and ready for more code. Disabled key input when Kento is knocked out. Knocked out animation now works. &#10;&#10;-&gt; script file: KnockedOut.cs&#10;&#10;&#10;Need to do: &#10;center kento back to the start when he is knocked out, show a black screen when knocked out, remove life from level manager">
+      <created>1664246195194</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664246195194</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: add two more files">
+      <created>1664246310711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664246310711</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Respawning system started. Level manager created. &#10;&#10;Currently it controls only the respawn; however, level manager will have all the values for the player (health, lives, items,....)&#10;&#10;Added a fade to black screen when play gets knocked out">
+      <created>1664430684659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664430684659</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: some enemies can move (basic animation, we will write a script for this later) &#10;&#10;If Kento walks into an enemy, Kento is knocked out and restarts from the beginning position. If Kento jumps up and lands on the enemies head, the enemy disappears. (later build will have an animation knock out and a 3 second delay to disappear.">
+      <created>1664580481732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664580481732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: missing files">
+      <created>1664740309027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664740309027</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: more missing files">
+      <created>1664740583732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664740583732</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: more missing files.">
+      <created>1664741737293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664741737293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Bought new NPCs and starting to replace all boxes with a sea lion. Then I will add some polar bears just to be random enemies that have nothing to do with the story line other than needing to survive their attacks. &#10;&#10;also, uploading more missing files">
+      <created>1664935424155</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664935424155</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: Started PlayerHealth system. &#10;&#10;Currently just works with a white box dealing damage. I'll add more stuff to the health system then have the sea lion start doing damage.">
+      <created>1664946831720</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664946831720</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: PlayerHealth.cs --&gt; more changes. &#10;&#10;&#10;Going to mess with the map so wanted to push this before that.">
+      <created>1665083332249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665083332249</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Basic health system, UI for Health being displayed">
+      <created>1665092571865</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665092571865</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: player life counter. &#10;&#10;Doesn't do anything if it is below 0 yet.">
+      <created>1665094434857</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665094434857</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: NPC with Patrol animation">
+      <created>1665099987589</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665099987589</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Press F (throw pebble) will now throw a snowball. &#10;&#10;We can changes this later. I want to push this up now just in case I break something when fixing the goons damage. &#10;&#10;Currently has unlimited throws.">
+      <created>1666835126144</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666835126144</updated>
+    </task>
+    <task id="LOCAL-00021" summary="resolved merge conflicts">
+      <created>1666838201175</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666838201175</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Gilbert-Dev-Branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations" />
+    <MESSAGE value="Map level 1 - first draft - Example scene. We will need to change it up some; however, it is a good starting point. &#10;&#10;&#10;Changed the animation around and still can't get it to work. I see the param are changing in the animator and all the transitions look good. Only thing is that the animations are not displaying. Still working on that." />
+    <MESSAGE value="feat: animation for idle, running, jumping added. &#10;&#10;Next push i'll put in peck (throwing projectile motion) and death (knocked out). &#10;&#10;&#10;After that push I'll be adding a few NPCs that only stays in one spot or walks around." />
+    <MESSAGE value="fix: move files needed" />
+    <MESSAGE value="feat: Gold coins with animation, removed once collected, collection effect. &#10;&#10;Currently only 5 coins around the map. Will be adding more and a count of how many coins the player has collected" />
+    <MESSAGE value="feat: Rotate camera angle. &#10;&#10;rotate camera angle with key.code R and it will move to the right. Use key.code Q it will move it to the left. &#10;&#10;We can change this but for now this is how to look around the map and get a different perspective. &#10;&#10;The camera rotation transition is a too quick. Next build we can make it smoother. &#10;&#10;Any other ideas to handle it add some comments. We could have the camera follow the direction of kento, but I think this would be more of a mario 64 feel to our game." />
+    <MESSAGE value="feat: Respawn script is in place and ready for more code. Disabled key input when Kento is knocked out. Knocked out animation now works. &#10;&#10;-&gt; script file: KnockedOut.cs&#10;&#10;&#10;Need to do: &#10;center kento back to the start when he is knocked out, show a black screen when knocked out, remove life from level manager" />
+    <MESSAGE value="fix: add two more files" />
+    <MESSAGE value="feat: Respawning system started. Level manager created. &#10;&#10;Currently it controls only the respawn; however, level manager will have all the values for the player (health, lives, items,....)&#10;&#10;Added a fade to black screen when play gets knocked out" />
+    <MESSAGE value="feat: some enemies can move (basic animation, we will write a script for this later) &#10;&#10;If Kento walks into an enemy, Kento is knocked out and restarts from the beginning position. If Kento jumps up and lands on the enemies head, the enemy disappears. (later build will have an animation knock out and a 3 second delay to disappear." />
+    <MESSAGE value="fix: missing files" />
+    <MESSAGE value="fix: more missing files" />
+    <MESSAGE value="fix: more missing files." />
+    <MESSAGE value="feat: Bought new NPCs and starting to replace all boxes with a sea lion. Then I will add some polar bears just to be random enemies that have nothing to do with the story line other than needing to survive their attacks. &#10;&#10;also, uploading more missing files" />
+    <MESSAGE value="feat: Started PlayerHealth system. &#10;&#10;Currently just works with a white box dealing damage. I'll add more stuff to the health system then have the sea lion start doing damage." />
+    <MESSAGE value="feat: PlayerHealth.cs --&gt; more changes. &#10;&#10;&#10;Going to mess with the map so wanted to push this before that." />
+    <MESSAGE value="feat: Basic health system, UI for Health being displayed" />
+    <MESSAGE value="feat: player life counter. &#10;&#10;Doesn't do anything if it is below 0 yet." />
+    <MESSAGE value="feat: NPC with Patrol animation" />
+    <MESSAGE value="Press F (throw pebble) will now throw a snowball. &#10;&#10;We can changes this later. I want to push this up now just in case I break something when fixing the goons damage. &#10;&#10;Currently has unlimited throws." />
+    <MESSAGE value="Resolved merge conflicts" />
+    <MESSAGE value="merging conflicts" />
+    <MESSAGE value="resolved merge conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolved merge conflicts" />
+  </component>
+</project>
