@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="Kento gets exp when knocking out a goon.">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Currency.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Food.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Udemy_3D_Platformer_Game/Assets/Scripts/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Udemy_3D_Platformer_Game/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Currency.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/testHealthDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Unity/save/PlayerShot.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ek20Jvvu83GmPnkeTK7dbVXJ2e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\gilbe\OneDrive\Documents\GitHub\Unity\the-lost-penguin\the-lost-penguin -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\gilbe\OneDrive\Documents\GitHub\Unity\the-lost-penguin\the-lost-penguin" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="" />
+      <created>1663125038873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663125038873</updated>
+      <workItem from="1663125067792" duration="7272000" />
+      <workItem from="1663168736622" duration="3120000" />
+      <workItem from="1663607964095" duration="1197000" />
+      <workItem from="1663708737146" duration="770000" />
+      <workItem from="1663717069383" duration="50000" />
+      <workItem from="1663719709286" duration="1984000" />
+      <workItem from="1664036283903" duration="1211000" />
+      <workItem from="1664136922152" duration="8894000" />
+      <workItem from="1664241474088" duration="5322000" />
+      <workItem from="1664426417208" duration="8486000" />
+      <workItem from="1664548810529" duration="9066000" />
+      <workItem from="1664738370895" duration="3162000" />
+      <workItem from="1664931468630" duration="7769000" />
+      <workItem from="1665016738287" duration="1616000" />
+      <workItem from="1665070609230" duration="11342000" />
+      <workItem from="1666657752060" duration="1605000" />
+      <workItem from="1666828281402" duration="7084000" />
+      <workItem from="1666836297285" duration="823000" />
+      <workItem from="1666837493733" duration="1940000" />
+      <workItem from="1666915606731" duration="1158000" />
+    </task>
+    <task id="LOCAL-00001" summary="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations">
+      <created>1663608484454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663608484454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Map level 1 - first draft - Example scene. We will need to change it up some; however, it is a good starting point. &#10;&#10;&#10;Changed the animation around and still can't get it to work. I see the param are changing in the animator and all the transitions look good. Only thing is that the animations are not displaying. Still working on that.">
+      <created>1663727653654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663727653655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: animation for idle, running, jumping added. &#10;&#10;Next push i'll put in peck (throwing projectile motion) and death (knocked out). &#10;&#10;&#10;After that push I'll be adding a few NPCs that only stays in one spot or walks around.">
+      <created>1664138211245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664138211245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: move files needed">
+      <created>1664138245179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664138245179</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Gold coins with animation, removed once collected, collection effect. &#10;&#10;Currently only 5 coins around the map. Will be adding more and a count of how many coins the player has collected">
+      <created>1664154376157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664154376157</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Rotate camera angle. &#10;&#10;rotate camera angle with key.code R and it will move to the right. Use key.code Q it will move it to the left. &#10;&#10;We can change this but for now this is how to look around the map and get a different perspective. &#10;&#10;The camera rotation transition is a too quick. Next build we can make it smoother. &#10;&#10;Any other ideas to handle it add some comments. We could have the camera follow the direction of kento, but I think this would be more of a mario 64 feel to our game.">
+      <created>1664167372542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664167372542</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Respawn script is in place and ready for more code. Disabled key input when Kento is knocked out. Knocked out animation now works. &#10;&#10;-&gt; script file: KnockedOut.cs&#10;&#10;&#10;Need to do: &#10;center kento back to the start when he is knocked out, show a black screen when knocked out, remove life from level manager">
+      <created>1664246195194</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664246195194</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: add two more files">
+      <created>1664246310711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664246310711</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Respawning system started. Level manager created. &#10;&#10;Currently it controls only the respawn; however, level manager will have all the values for the player (health, lives, items,....)&#10;&#10;Added a fade to black screen when play gets knocked out">
+      <created>1664430684659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664430684659</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: some enemies can move (basic animation, we will write a script for this later) &#10;&#10;If Kento walks into an enemy, Kento is knocked out and restarts from the beginning position. If Kento jumps up and lands on the enemies head, the enemy disappears. (later build will have an animation knock out and a 3 second delay to disappear.">
+      <created>1664580481732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664580481732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: missing files">
+      <created>1664740309027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664740309027</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: more missing files">
+      <created>1664740583732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664740583732</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: more missing files.">
+      <created>1664741737293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664741737293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Bought new NPCs and starting to replace all boxes with a sea lion. Then I will add some polar bears just to be random enemies that have nothing to do with the story line other than needing to survive their attacks. &#10;&#10;also, uploading more missing files">
+      <created>1664935424155</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664935424155</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: Started PlayerHealth system. &#10;&#10;Currently just works with a white box dealing damage. I'll add more stuff to the health system then have the sea lion start doing damage.">
+      <created>1664946831720</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664946831720</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: PlayerHealth.cs --&gt; more changes. &#10;&#10;&#10;Going to mess with the map so wanted to push this before that.">
+      <created>1665083332249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665083332249</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Basic health system, UI for Health being displayed">
+      <created>1665092571865</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665092571865</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: player life counter. &#10;&#10;Doesn't do anything if it is below 0 yet.">
+      <created>1665094434857</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665094434857</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: NPC with Patrol animation">
+      <created>1665099987589</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665099987589</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Press F (throw pebble) will now throw a snowball. &#10;&#10;We can changes this later. I want to push this up now just in case I break something when fixing the goons damage. &#10;&#10;Currently has unlimited throws.">
+      <created>1666835126144</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666835126144</updated>
+    </task>
+    <task id="LOCAL-00021" summary="resolved merge conflicts">
+      <created>1666838201175</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666838201175</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Goon is deleted when snowball hits them&#10;&#10;This will be reworked to take damage, faint, and disappear. &#10;&#10;Player can now also take damn when they touch a goon.">
+      <created>1666839408539</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666839408539</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Kento gets exp when knocking out a goon.">
+      <created>1666916475515</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666916475515</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Gilbert-Dev-Branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations" />
+    <MESSAGE value="Map level 1 - first draft - Example scene. We will need to change it up some; however, it is a good starting point. &#10;&#10;&#10;Changed the animation around and still can't get it to work. I see the param are changing in the animator and all the transitions look good. Only thing is that the animations are not displaying. Still working on that." />
+    <MESSAGE value="feat: animation for idle, running, jumping added. &#10;&#10;Next push i'll put in peck (throwing projectile motion) and death (knocked out). &#10;&#10;&#10;After that push I'll be adding a few NPCs that only stays in one spot or walks around." />
+    <MESSAGE value="fix: move files needed" />
+    <MESSAGE value="feat: Gold coins with animation, removed once collected, collection effect. &#10;&#10;Currently only 5 coins around the map. Will be adding more and a count of how many coins the player has collected" />
+    <MESSAGE value="feat: Rotate camera angle. &#10;&#10;rotate camera angle with key.code R and it will move to the right. Use key.code Q it will move it to the left. &#10;&#10;We can change this but for now this is how to look around the map and get a different perspective. &#10;&#10;The camera rotation transition is a too quick. Next build we can make it smoother. &#10;&#10;Any other ideas to handle it add some comments. We could have the camera follow the direction of kento, but I think this would be more of a mario 64 feel to our game." />
+    <MESSAGE value="feat: Respawn script is in place and ready for more code. Disabled key input when Kento is knocked out. Knocked out animation now works. &#10;&#10;-&gt; script file: KnockedOut.cs&#10;&#10;&#10;Need to do: &#10;center kento back to the start when he is knocked out, show a black screen when knocked out, remove life from level manager" />
+    <MESSAGE value="fix: add two more files" />
+    <MESSAGE value="feat: Respawning system started. Level manager created. &#10;&#10;Currently it controls only the respawn; however, level manager will have all the values for the player (health, lives, items,....)&#10;&#10;Added a fade to black screen when play gets knocked out" />
+    <MESSAGE value="feat: some enemies can move (basic animation, we will write a script for this later) &#10;&#10;If Kento walks into an enemy, Kento is knocked out and restarts from the beginning position. If Kento jumps up and lands on the enemies head, the enemy disappears. (later build will have an animation knock out and a 3 second delay to disappear." />
+    <MESSAGE value="fix: missing files" />
+    <MESSAGE value="fix: more missing files" />
+    <MESSAGE value="fix: more missing files." />
+    <MESSAGE value="feat: Bought new NPCs and starting to replace all boxes with a sea lion. Then I will add some polar bears just to be random enemies that have nothing to do with the story line other than needing to survive their attacks. &#10;&#10;also, uploading more missing files" />
+    <MESSAGE value="feat: Started PlayerHealth system. &#10;&#10;Currently just works with a white box dealing damage. I'll add more stuff to the health system then have the sea lion start doing damage." />
+    <MESSAGE value="feat: PlayerHealth.cs --&gt; more changes. &#10;&#10;&#10;Going to mess with the map so wanted to push this before that." />
+    <MESSAGE value="feat: Basic health system, UI for Health being displayed" />
+    <MESSAGE value="feat: player life counter. &#10;&#10;Doesn't do anything if it is below 0 yet." />
+    <MESSAGE value="feat: NPC with Patrol animation" />
+    <MESSAGE value="Press F (throw pebble) will now throw a snowball. &#10;&#10;We can changes this later. I want to push this up now just in case I break something when fixing the goons damage. &#10;&#10;Currently has unlimited throws." />
+    <MESSAGE value="Resolved merge conflicts" />
+    <MESSAGE value="merging conflicts" />
+    <MESSAGE value="resolved merge conflicts" />
+    <MESSAGE value="Goon is deleted when snowball hits them&#10;&#10;This will be reworked to take damage, faint, and disappear. &#10;&#10;Player can now also take damn when they touch a goon." />
+    <MESSAGE value="Kento gets exp when knocking out a goon." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kento gets exp when knocking out a goon." />
+  </component>
+</project>
