@@ -382,6 +382,7 @@
 "Assets/Scripts/Food.cs"
 "Assets/Scripts/KnockedOut.cs"
 "Assets/Scripts/LevelManager.cs"
+"Assets/Scripts/Pebble.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerShot.cs"

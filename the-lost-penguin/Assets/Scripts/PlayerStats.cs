@@ -4,29 +4,33 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    //[HideInInspector]
+    [HideInInspector]
     public static PlayerStats instance;
     public int kentoLevel = 1;
+    public int maxLevel = 10; //default max level, could change in the future
     public int currentExp = 0;
     //the exp value that is needed to be reached so that kento levels up
-    public int expForNextLevel;
+    public int expForNextLevel {get; private set;}
     //range of level values for reaching next sequential levels
     public int[] expToNextLevelList;
-    public int maxLevel = 10; //default max level, could change in the future
-    [HideInInspector]
-    private int baseEXP = 5; //default
-    //public PlayerHealth playerHealth; //need to access max hp
-    public int throwStrength;
+    public float pebbleThrowDistance;
     public int pebbleCount = 0;
     public int maxPeppleCount = 10;
+    public int expBoost = 0;
 
-    //anything else we could add?
+    /* Skill Tree
 
-
+    pebble throw speed
+    pebble distance
+    run speed
+    jump height
+    exp booster
+    */
     
     // Start is called before the first frame update
     void Start()
     {
+        int baseEXP = 5; //default
         expToNextLevelList = new int[maxLevel];
         //set exp level up requirements
         expToNextLevelList[0] = baseEXP; //first level set to 5 exp
@@ -57,7 +61,7 @@ public class PlayerStats : MonoBehaviour
         //both enemy and item scripts should have an exp field to be used
 
         //testing, remove when done
-        // if(Input.GetKey(KeyCode.J))
+        // if(Input.GetKeyDown(KeyCode.J))
         // {
         //     AddExp(1);
         // }
@@ -71,7 +75,7 @@ public class PlayerStats : MonoBehaviour
     //from either goons or collectables
     public void AddExp(int exp)
     {
-        currentExp += exp;
+        currentExp += exp + expBoost;
         print("gaining exp");
         UIController.instance.UpdateExpDisplay();
         if(kentoLevel < maxLevel)
@@ -85,7 +89,9 @@ public class PlayerStats : MonoBehaviour
         //if we're at max level, don't gain anymore exp
         if(kentoLevel >= maxLevel)
         {
-            // currentExp = 0;
+            //setting this to 0 is needed, otherwise the exp number 
+            //will keep rising despite being at max
+            currentExp = 0;
             UIController.instance.UpdateExpDisplay();
         }         
     }
@@ -102,12 +108,13 @@ public class PlayerStats : MonoBehaviour
 
     private void IncreaseStats()
     {
-        throwStrength++; //distance and damage
+        //will adjust in skill tree later
+        pebbleThrowDistance++;
         maxPeppleCount += 2;
 
         //update display, as well as some healing for leveling up
         PlayerHealth.instance.maxHealth += 10;
-        PlayerHealth.instance.FillHealth(); // when player levels up they will get ful health
+        PlayerHealth.instance.FillHealth(); // when player levels up they will get full health
         UIController.instance.UpdateExpDisplay();
         UIController.instance.UpdatePebbleCount();
     }

@@ -11,7 +11,6 @@ public class UIController : MonoBehaviour
 
     public static UIController instance;
 
-
     public Image fadeScreen;
     private bool isFadingToBlack;
     private bool isFadingFromBlack;
@@ -29,17 +28,20 @@ public class UIController : MonoBehaviour
 
     //pebbles
     public TMP_Text pebblesText;
+
+    //stats menu data
+    public GameObject statsMenu;
+    public TMP_Text[] healthData, expData, pebblesData, miscData;
     
     private void Awake()
     {
         instance = this;
     }
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        
+        //start with stats menu closed
+        statsMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -55,6 +57,19 @@ public class UIController : MonoBehaviour
         {
             fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b,
                 Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
+        }
+
+        //stats menu opening and closing
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            if(statsMenu.activeInHierarchy)
+                statsMenu.SetActive(false);
+            else
+            {
+                UpdateStatsOnMenu();
+                statsMenu.SetActive(true);
+            }
+                
         }
     }
 
@@ -108,4 +123,22 @@ public class UIController : MonoBehaviour
         pebblesText.text = $"Pebbles: {PlayerStats.instance.pebbleCount}/{PlayerStats.instance.maxPeppleCount}";
     }
 
+    private void UpdateStatsOnMenu()
+    {
+        healthData[0].text = $"Current HP: {PlayerHealth.instance.currentHealth}";
+        healthData[1].text = $"Max HP: {PlayerHealth.instance.maxHealth}";
+
+        expData[0].text = $"Level: {PlayerStats.instance.kentoLevel}";
+        expData[1].text = $"Current Exp: {PlayerStats.instance.currentExp}";
+        expData[2].text = $"Exp Needed for Level Up: {PlayerStats.instance.expForNextLevel}";
+
+        pebblesData[0].text = $"Current Amount: {PlayerStats.instance.pebbleCount}";
+        pebblesData[1].text = $"Max Amount: {PlayerStats.instance.maxPeppleCount}";
+        pebblesData[2].text = $"Throw Range: {PlayerStats.instance.pebbleThrowDistance}";
+        pebblesData[3].text = $"Throw Speed: {PlayerShot.instance.pebbleSpeed}";
+
+        miscData[0].text = $"Run Speed: {PlayerController.instance.moveSpeed}";
+        miscData[1].text = $"Jump Height: {PlayerController.instance.jumpForce}";
+        miscData[2].text = $"Exp Boost: {PlayerStats.instance.expBoost}";
+    }
 }
