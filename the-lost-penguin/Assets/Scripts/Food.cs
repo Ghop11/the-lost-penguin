@@ -23,6 +23,11 @@ public class Food : MonoBehaviour
 
             //other.gameObject.SetActive(false);
             Destroy(gameObject);
+            
+            // give exp points 
+            PlayerStats.instance.AddExp(2); // need to figure out a good amount of exp
+
+            
         }
     }
 }

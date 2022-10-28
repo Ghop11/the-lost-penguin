@@ -57,10 +57,10 @@ public class PlayerStats : MonoBehaviour
         //both enemy and item scripts should have an exp field to be used
 
         //testing, remove when done
-        if(Input.GetKey(KeyCode.J))
-        {
-            AddExp(1);
-        }
+        // if(Input.GetKey(KeyCode.J))
+        // {
+        //     AddExp(1);
+        // }
     }
 
     public void Awake()
@@ -72,6 +72,7 @@ public class PlayerStats : MonoBehaviour
     public void AddExp(int exp)
     {
         currentExp += exp;
+        print("gaining exp");
         UIController.instance.UpdateExpDisplay();
         if(kentoLevel < maxLevel)
         {
@@ -84,7 +85,7 @@ public class PlayerStats : MonoBehaviour
         //if we're at max level, don't gain anymore exp
         if(kentoLevel >= maxLevel)
         {
-            currentExp = 0;
+            // currentExp = 0;
             UIController.instance.UpdateExpDisplay();
         }         
     }
@@ -106,7 +107,7 @@ public class PlayerStats : MonoBehaviour
 
         //update display, as well as some healing for leveling up
         PlayerHealth.instance.maxHealth += 10;
-        PlayerHealth.instance.AddHealth(5);
+        PlayerHealth.instance.FillHealth(); // when player levels up they will get ful health
         UIController.instance.UpdateExpDisplay();
         UIController.instance.UpdatePebbleCount();
     }
