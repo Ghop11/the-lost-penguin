@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
 {
 
     public static PlayerHealth instance;
-    private int currentHealth;
+    public int currentHealth {get; private set;}
     public int maxHealth;
 
     private float noDamageCounter;
