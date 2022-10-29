@@ -17,6 +17,7 @@ public class PlayerStats : MonoBehaviour
     public int pebbleCount = 0;
     public int maxPeppleCount = 10;
     public int expBoost = 0;
+    public int skillPoints = 10; //can be gained on level up, or completing objectives in the story
 
     /* Skill Tree
 
@@ -102,6 +103,7 @@ public class PlayerStats : MonoBehaviour
         currentExp -= expToNextLevelList[kentoLevel - 1];
         //update text on screen
         kentoLevel++;
+        skillPoints++; //could increase it by more, or something
         expForNextLevel = expToNextLevelList[kentoLevel - 1];
         UIController.instance.UpdateExpLevel();
     }
