@@ -24,7 +24,7 @@ public class SkillTree : MonoBehaviour
         {
             skillsNodes[i].PlayerLevelRequirement = i + 1;
             skillsNodes[i].Title = $"Placeholder Title {i + 1}";
-            skillsNodes[i].Description = $"Place Holder Description {-1 * Limit + i + 1}";
+            skillsNodes[i].Description = $"Place Holder Description {i + 1}";
             skillsNodes[i].Cost = 1;
             skillsNodes[i].TreeLevel = 0;
         }
@@ -55,14 +55,16 @@ public class SkillTree : MonoBehaviour
     //TODO: THIS IS NOT WORKING AS EXPECTED, FIX LATER
     void AssignSkillTreePath()
     {
-        //the numbers by the prefab copies namesin the hiearchy is the
+        //the numbers by the prefab copies names in the hiearchy is the
         //connected skill levels
+        
+        skillList[0].connectedSkills = new int[]{1, 2}; //first upgrade branches to two upgrades, 
+        skillList[1].connectedSkills = new int[]{3}; //bottom branch has one extending node
+        skillList[2].connectedSkills = new int[]{4}; //same as top
+        skillList[3].connectedSkills = new int[]{5}; //both 3 and 4 extend to 5
+        skillList[4].connectedSkills = new int[]{5};
 
-        // skillList[0].connectedSkills = new int[]{1, 2}; //first upgrade branches to two upgrades, 
-        // skillList[1].connectedSkills = new int[]{3}; //bottom branch has one extending node
-        // skillList[2].connectedSkills = new int[]{4}; //same as top
-        // skillList[3].connectedSkills = new int[]{5}; //both 3 and 4 extend to 5
-        // skillList[4].connectedSkills = new int[]{5};
+        //TODO: Fix display issues with image tree paths
     }
 
     // Update is called once per frame

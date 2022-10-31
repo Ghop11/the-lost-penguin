@@ -1,0 +1,330 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 20279 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-penguin
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63682
+Successfully changed project path to: C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-penguin
+C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-penguin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 366.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-penguin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     10139 MB
+    Driver:   30.0.101.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006151 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 180.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1058ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (795ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (180ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008307 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\uchen\OneDrive\Desktop\Unity\Unity Projects\the-lost-penguin\the-lost-penguin\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\uchen\OneDrive\Desktop\Unity\Unity Projects\the-lost-penguin\the-lost-penguin\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 200.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1976ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1665ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (890ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (201ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Failed to load shader (instanceID 556, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Failed to load shader (instanceID 570, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5642.
+Memory consumption went from 205.2 MB to 204.5 MB.
+Total: 7.442700 ms (FindLiveObjects: 0.940000 ms CreateObjectMapping: 1.152500 ms MarkObjects: 4.876100 ms  DeleteObjects: 0.472000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5755.796271 seconds.
+  path: Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/Prefabs/ArcticFox_LOD0.prefab
+  artifactKey: Guid(7dc110f2f21b05046974ff2f07465b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/Prefabs/ArcticFox_LOD0.prefab using Guid(7dc110f2f21b05046974ff2f07465b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de18a60369b2d0dba41c70439e0e235') in 0.921825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.960436 seconds.
+  path: Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/Prefabs/ArcticFox_LOD3.prefab
+  artifactKey: Guid(0c4c9e65204ea9940b223b26b1d944ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/Prefabs/ArcticFox_LOD3.prefab using Guid(0c4c9e65204ea9940b223b26b1d944ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d8151ed4a7f198b6f8fadc47b2c5bd') in 0.095381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.561887 seconds.
+  path: Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/Animations/Reindeer_Animations.fbx
+  artifactKey: Guid(294018a7e39a2d447977790e9e191691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol.1 [v1.3]/Arctic Vol.1/Animations/Reindeer_Animations.fbx using Guid(294018a7e39a2d447977790e9e191691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05ae3b3044984898a9fd12c25012c8a') in 0.196790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/block.fbx
+  artifactKey: Guid(7e3c19bf036f2004c94d6ac13c48d279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/block.fbx using Guid(7e3c19bf036f2004c94d6ac13c48d279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d442d1d881a4775fc00da7b7848a29') in 0.122294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275090 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockCornerSmall.fbx
+  artifactKey: Guid(ab47657427852c44fbc887fb72cf336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockCornerSmall.fbx using Guid(ab47657427852c44fbc887fb72cf336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0101f3e63e25e24c5a6be57ede74bd8') in 0.093904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockCurve.fbx
+  artifactKey: Guid(0534de57b6ea2b04fa26e7b395f572f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockCurve.fbx using Guid(0534de57b6ea2b04fa26e7b395f572f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb388609eb5401618aba7ca8a9f2ed5') in 0.072702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541652 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockLarge.fbx
+  artifactKey: Guid(7b296c5022ffbb6469fb4919cbb2f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockLarge.fbx using Guid(7b296c5022ffbb6469fb4919cbb2f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fb331b33a05dcbdb1c5634a71926ba') in 0.055335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockLevel.fbx
+  artifactKey: Guid(ff3e64aeae5145041a10dede90f9c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockLevel.fbx using Guid(ff3e64aeae5145041a10dede90f9c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341cc992f5569113e5c52313c74f3175') in 0.056539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351780 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockRoundedLarge.fbx
+  artifactKey: Guid(45d786a459526414dab29837fc76e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/blockRoundedLarge.fbx using Guid(45d786a459526414dab29837fc76e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3f7f0c0f653610e09c2729c3a21563') in 0.073321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.413853 seconds.
+  path: Assets/_3D Platformer Assets/Material/Boss Shot.mat
+  artifactKey: Guid(f6f910b1f21a7bb458d6b7c878437870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Material/Boss Shot.mat using Guid(f6f910b1f21a7bb458d6b7c878437870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/Coin': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 943
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+ -> (artifact id: '9d12d2477aa78d8ca982d5a99fd4747e') in 0.095744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_3D Platformer Assets/Audio/SFX/Boss_Appear_Disappear.wav
+  artifactKey: Guid(6715b7c42d4e2ec41a67bce277870d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Audio/SFX/Boss_Appear_Disappear.wav using Guid(6715b7c42d4e2ec41a67bce277870d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85dacc1f37534b287ae7dbf41369f34') in 0.174819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.249422 seconds.
+  path: Assets/_3D Platformer Assets/Font/Bungee-Regular SDF.asset
+  artifactKey: Guid(fab1960de51fdd943873bc64778ad98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Font/Bungee-Regular SDF.asset using Guid(fab1960de51fdd943873bc64778ad98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1ed93e8b7dffd234244540b622c0da') in 0.138314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.315524 seconds.
+  path: Assets/Collection/UI/Button_Selected.png
+  artifactKey: Guid(b269e17176aefde44a4a53d5a1ae1524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collection/UI/Button_Selected.png using Guid(b269e17176aefde44a4a53d5a1ae1524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77326f20841509108ba084434d732c3a') in 0.110805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_3D Platformer Assets/Audio/SFX/checkpoint.wav
+  artifactKey: Guid(7216c4aba62acef4e892f7d84e711c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Audio/SFX/checkpoint.wav using Guid(7216c4aba62acef4e892f7d84e711c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a833eb8c68d0bbf89217f9e21a4a386') in 0.035117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007818 seconds.
+  path: Assets/Low poly snowy lands/Textures/Colors2.png
+  artifactKey: Guid(5748eb027a83fff43818c48da765952d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Textures/Colors2.png using Guid(5748eb027a83fff43818c48da765952d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12430ff240df7dc62a6c82117fe4d7c') in 0.021381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/crateStrong.fbx
+  artifactKey: Guid(b2e26f7a95345a94090c43b943f96380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Models/Kenney Platformer Assets/crateStrong.fbx using Guid(b2e26f7a95345a94090c43b943f96380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f1e4b32dcce7128b19aa9ac9411088') in 0.166107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279462 seconds.
+  path: Assets/_3D Platformer Assets/Audio/SFX/Crystal.wav
+  artifactKey: Guid(bb44ea414bfb0c840a644d8f6d350777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D Platformer Assets/Audio/SFX/Crystal.wav using Guid(bb44ea414bfb0c840a644d8f6d350777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dccad0759fce5ec797fd18ba8568d25') in 0.016536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Collection/Crystal.mat
+  artifactKey: Guid(563026339c764534b87ecfe9ac8a50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collection/Crystal.mat using Guid(563026339c764534b87ecfe9ac8a50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ebc4439e541ac46c4eb9afe3c2997') in 0.080198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.293884 seconds.
+  path: Assets/Low poly snowy lands/Models/Rocks/Rock_02_+_snow.fbx
+  artifactKey: Guid(727650d7da27ee9479e73b3d278b898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Rocks/Rock_02_+_snow.fbx using Guid(727650d7da27ee9479e73b3d278b898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624a4d4294f7c9247cdd5a87b180c759') in 0.054339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Low poly snowy lands/Models/Rocks/Rock_02.fbx
+  artifactKey: Guid(f98a72ac0af7f2e468212d08222a3b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Rocks/Rock_02.fbx using Guid(f98a72ac0af7f2e468212d08222a3b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0a4d92084ac0fdd67d865c7216f5f0') in 0.090716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Low poly snowy lands/Models/Trees/Tree_04_+_snow.fbx
+  artifactKey: Guid(11cebcf74565967418ffd2bc6990ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Trees/Tree_04_+_snow.fbx using Guid(11cebcf74565967418ffd2bc6990ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27d7db03a9aae8c2cb8d20ce5e56d8f') in 0.091652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Low poly snowy lands/Models/Logs_stumps/Log_01_+_snow.fbx
+  artifactKey: Guid(9379cf84047c1b942aed52747ceec039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Logs_stumps/Log_01_+_snow.fbx using Guid(9379cf84047c1b942aed52747ceec039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c776787591f25115712407a83af8e9b') in 0.127648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low poly snowy lands/Models/Ice/IceBlock_02.fbx
+  artifactKey: Guid(a512593827e2da147a38cd9a82632d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Ice/IceBlock_02.fbx using Guid(a512593827e2da147a38cd9a82632d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af0af40546445c6af8d2111e0a14236') in 0.090152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006379 seconds.
+  path: Assets/Low poly snowy lands/Models/Logs_stumps/TreeStump_02.fbx
+  artifactKey: Guid(45e49e9c54fe27c41bcd679f71d21344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Logs_stumps/TreeStump_02.fbx using Guid(45e49e9c54fe27c41bcd679f71d21344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0393eb6211061cd1d9d521cdc72125') in 0.097385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Low poly snowy lands/Models/Trees/Tree_05.fbx
+  artifactKey: Guid(6a00be54a22bc2b44864f1f9d7c07547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low poly snowy lands/Models/Trees/Tree_05.fbx using Guid(6a00be54a22bc2b44864f1f9d7c07547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb0fd08b7b52a94407e0cba178802c0') in 0.154157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/dangerZone.mat
+  artifactKey: Guid(05b2d07f0c411cb4ab872bc0b2e01e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dangerZone.mat using Guid(05b2d07f0c411cb4ab872bc0b2e01e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e74a9b95fe61c9eaa699ab6482cec4c') in 0.071028 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

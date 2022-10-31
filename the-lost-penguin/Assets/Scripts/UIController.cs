@@ -31,7 +31,10 @@ public class UIController : MonoBehaviour
 
     //stats menu data
     public GameObject statsMenu;
+    //skill tree menu data
+    public GameObject skillTreeMenu;
     public TMP_Text[] healthData, expData, pebblesData, miscData;
+
     
     private void Awake()
     {
@@ -40,8 +43,9 @@ public class UIController : MonoBehaviour
 
     void Start()
     {
-        //start with stats menu closed
+        //start with stats and skill tree menu closed
         statsMenu.SetActive(false);
+        skillTreeMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -59,18 +63,9 @@ public class UIController : MonoBehaviour
                 Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
         }
 
-        //stats menu opening and closing
-        if(Input.GetKeyDown(KeyCode.M))
-        {
-            if(statsMenu.activeInHierarchy)
-                statsMenu.SetActive(false);
-            else
-            {
-                UpdateStatsOnMenu();
-                statsMenu.SetActive(true);
-            }
-                
-        }
+        OpenOrCloseStats();
+
+        OpenOrCloseSkillTree();
     }
 
 
@@ -140,5 +135,45 @@ public class UIController : MonoBehaviour
         miscData[0].text = $"Run Speed: {PlayerController.instance.moveSpeed}";
         miscData[1].text = $"Jump Height: {PlayerController.instance.jumpForce}";
         miscData[2].text = $"Exp Boost: {PlayerStats.instance.expBoost}";
+    }
+
+    //TODO: Pause game when menu is open
+    private void OpenOrCloseStats()
+    {
+        //stats menu opening and closing
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            //don't display the skill tree with the stats open
+            if(!skillTreeMenu.activeInHierarchy)
+            {
+                if(statsMenu.activeInHierarchy)
+                    statsMenu.SetActive(false);
+                else
+                {
+                    UpdateStatsOnMenu();
+                    statsMenu.SetActive(true);
+                }
+            }    
+        }
+    }
+
+    private void OpenOrCloseSkillTree()
+    {
+        //skill tree menu opening and closing
+        if(Input.GetKeyDown(KeyCode.N))
+        {
+            if(!statsMenu.activeInHierarchy)
+            {
+                if(skillTreeMenu.activeInHierarchy)
+                {
+                    skillTreeMenu.SetActive(false);
+                }   
+                else
+                {
+                    SkillUI.instance.UpdateSkillTreeUI();
+                    skillTreeMenu.SetActive(true);
+                }
+            }        
+        }
     }
 }

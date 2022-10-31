@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
     //the exp value that is needed to be reached so that kento levels up
     public int expForNextLevel {get; private set;}
     //range of level values for reaching next sequential levels
-    public int[] expToNextLevelList;
+    public int[] expToNextLevelList { get; private set; }
     public float pebbleThrowDistance;
     public int pebbleCount = 0;
     public int maxPeppleCount = 10;
