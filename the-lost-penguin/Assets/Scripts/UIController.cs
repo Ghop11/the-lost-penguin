@@ -8,7 +8,7 @@ using UnityEngine.Rendering;
 
 public class UIController : MonoBehaviour
 {
-
+    [HideInInspector]
     public static UIController instance;
 
     public Image fadeScreen;
@@ -33,7 +33,7 @@ public class UIController : MonoBehaviour
     public GameObject statsMenu;
     //skill tree menu data
     public GameObject skillTreeMenu;
-    public TMP_Text[] healthData, expData, pebblesData, miscData;
+    public TMP_Text[] statsData;
 
     
     private void Awake()
@@ -120,21 +120,18 @@ public class UIController : MonoBehaviour
 
     private void UpdateStatsOnMenu()
     {
-        healthData[0].text = $"Current HP: {PlayerHealth.instance.currentHealth}";
-        healthData[1].text = $"Max HP: {PlayerHealth.instance.maxHealth}";
-
-        expData[0].text = $"Level: {PlayerStats.instance.kentoLevel}";
-        expData[1].text = $"Current Exp: {PlayerStats.instance.currentExp}";
-        expData[2].text = $"Exp Needed for Level Up: {PlayerStats.instance.expForNextLevel}";
-
-        pebblesData[0].text = $"Current Amount: {PlayerStats.instance.pebbleCount}";
-        pebblesData[1].text = $"Max Amount: {PlayerStats.instance.maxPeppleCount}";
-        pebblesData[2].text = $"Throw Range: {PlayerStats.instance.pebbleThrowDistance}";
-        pebblesData[3].text = $"Throw Speed: {PlayerShot.instance.pebbleSpeed}";
-
-        miscData[0].text = $"Run Speed: {PlayerController.instance.moveSpeed}";
-        miscData[1].text = $"Jump Height: {PlayerController.instance.jumpForce}";
-        miscData[2].text = $"Exp Boost: {PlayerStats.instance.expBoost}";
+        statsData[0].text = $"{PlayerHealth.instance.currentHealth}";
+        statsData[1].text = PlayerHealth.instance.maxHealth.ToString();
+        statsData[2].text = $"{PlayerStats.instance.pebbleCount}";
+        statsData[3].text = PlayerStats.instance.maxPeppleCount.ToString();
+        statsData[4].text = $"{PlayerStats.instance.pebbleThrowDistance}";
+        statsData[5].text = $"{PlayerStats.instance.pebbleThrowSpeed}"; //there's probably a variable like this in a script somewhere...
+        statsData[6].text = $"{PlayerController.instance.moveSpeed}";
+        statsData[7].text = $"{PlayerController.instance.jumpForce}";
+        statsData[8].text = $"{PlayerStats.instance.expBoost}";
+        statsData[9].text = $"{PlayerStats.instance.kentoLevel}";
+        statsData[10].text = $"Current Exp: {PlayerStats.instance.currentExp}";
+        statsData[11].text = $"Exp for Level up: {PlayerStats.instance.expForNextLevel - PlayerStats.instance.currentExp}";
     }
 
     //TODO: Pause game when menu is open
