@@ -61,12 +61,6 @@ public class PlayerStats : MonoBehaviour
         //when kento defeats an enemy, he should get exp
         //if he finds something, then he should get exp
         //both enemy and item scripts should have an exp field to be used
-
-        //testing, remove when done
-        if(Input.GetKey(KeyCode.J))
-        {
-            AddExp(1);
-        }
     }
 
     public void Awake()
