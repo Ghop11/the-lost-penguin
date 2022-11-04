@@ -8,14 +8,21 @@ public class SkillUI : MonoBehaviour
 {
     //UI canvas is getting convoluted, so I think it's better to have
     //skill UI be in its own script
+    [HideInInspector]
+    public static SkillUI instance;
     public int idIndex;
     public TMP_Text title, Description, LevelRequirementText, costText;
     public int[] connectedSkills;
 
-    public GameObject skillTreeMenu;
+    // public GameObject skillTreeMenu;
     void Start()
     {
         
+    }
+
+    private void Awake()
+    {
+        instance = this;
     }
 
     public void UpdateSkillTreeUI()
@@ -47,6 +54,7 @@ public class SkillUI : MonoBehaviour
 
     //done on prefabs
     //have control set to buttons for now
+    //TODO: Some sort of way the player can interact with menu via buttons on keyboard
     public void BuySkills()
     {
         //
@@ -60,20 +68,6 @@ public class SkillUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //skill tree menu opening and closing
-        if(Input.GetKeyDown(KeyCode.N))
-        {
-            if(skillTreeMenu.activeInHierarchy)
-            {
-                skillTreeMenu.SetActive(false);
-            }
-                
-            else
-            {
-                //UpdateSkillTreeUI();
-                skillTreeMenu.SetActive(true);
-            }
-                
-        }
+        
     }
 }

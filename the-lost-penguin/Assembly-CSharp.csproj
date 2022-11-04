@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerShot.cs" />
+     <Compile Include="Assets\Scripts\Regular Classes\SkillData.cs" />
      <Compile Include="Assets\testisGrounded.cs" />
      <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -51,10 +52,9 @@
      <Compile Include="Assets\Scripts\Currency.cs" />
      <Compile Include="Assets\Scripts\KnockedOut.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\SkillUI.cs" />
      <Compile Include="Assets\Scripts\SkillTree.cs" />
      <Compile Include="Assets\Scripts\testHealthDamage.cs" />
-     <Compile Include="Assets\Scripts\Regular Classes\SkillData.cs" />
-     <Compile Include="Assets\Scripts\SkillUI.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

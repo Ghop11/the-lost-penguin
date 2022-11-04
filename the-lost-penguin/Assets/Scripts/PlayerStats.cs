@@ -12,8 +12,9 @@ public class PlayerStats : MonoBehaviour
     //the exp value that is needed to be reached so that kento levels up
     public int expForNextLevel {get; private set;}
     //range of level values for reaching next sequential levels
-    public int[] expToNextLevelList;
-    public float pebbleThrowDistance;
+    public int[] expToNextLevelList { get; private set; }
+    public float pebbleThrowDistance = 0;
+    public float pebbleThrowSpeed = 0;
     public int pebbleCount = 0;
     public int maxPeppleCount = 10;
     public int expBoost = 0;
@@ -60,12 +61,6 @@ public class PlayerStats : MonoBehaviour
         //when kento defeats an enemy, he should get exp
         //if he finds something, then he should get exp
         //both enemy and item scripts should have an exp field to be used
-
-        //testing, remove when done
-        // if(Input.GetKeyDown(KeyCode.J))
-        // {
-        //     AddExp(1);
-        // }
     }
 
     public void Awake()
@@ -117,6 +112,7 @@ public class PlayerStats : MonoBehaviour
         //update display, as well as some healing for leveling up
         PlayerHealth.instance.maxHealth += 10;
         PlayerHealth.instance.FillHealth(); // when player levels up they will get full health
+        UIController.instance.UpdateHealthDisplay(PlayerHealth.instance.currentHealth);
         UIController.instance.UpdateExpDisplay();
         UIController.instance.UpdatePebbleCount();
     }
