@@ -167,7 +167,7 @@ public class UIController : MonoBehaviour
                 }   
                 else
                 {
-                    SkillUI.instance.UpdateSkillTreeUI();
+                    //SkillUI.instance.UpdateSkillTreeUI();
                     skillTreeMenu.SetActive(true);
                 }
             }        
