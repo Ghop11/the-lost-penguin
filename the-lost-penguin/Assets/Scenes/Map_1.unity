@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1234141811}
-  m_IndirectSpecularColor: {r: 0.4465822, g: 0.4964165, b: 0.5748201, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465829, g: 0.49641728, b: 0.57482105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3156,7 +3156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.551025, y: -11.461975}
+  m_AnchoredPosition: {x: -18.551025, y: -11.461914}
   m_SizeDelta: {x: -1704.451, y: -76.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198915922
@@ -11754,7 +11754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 107.142, y: -171}
+  m_AnchoredPosition: {x: 107.14209, y: -171}
   m_SizeDelta: {x: 159.658, y: 47.378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722666638
@@ -11904,11 +11904,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 1362953691}
   - {fileID: 624269547}
   - {fileID: 923099854}
   theRB: {fileID: 726252135}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
 --- !u!136 &726252134
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16071,11 +16075,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 933481670}
   - {fileID: 694346096}
   - {fileID: 371181540}
   theRB: {fileID: 967110500}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
 --- !u!136 &967110499
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18659,6 +18667,7 @@ GameObject:
   - component: {fileID: 1134084660}
   - component: {fileID: 1134084656}
   - component: {fileID: 1134084662}
+  - component: {fileID: 1134084663}
   m_Layer: 0
   m_Name: SeaLoin_Goon
   m_TagString: Goon
@@ -18679,11 +18688,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 1171824040}
   - {fileID: 582717207}
   - {fileID: 2091557255}
   theRB: {fileID: 1134084661}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
 --- !u!4 &1134084658
 Transform:
   m_ObjectHideFlags: 0
@@ -18745,6 +18758,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0.5}
+--- !u!135 &1134084663
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134084655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 15
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1137180762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19436,7 +19462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171824039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.25, y: -0.01, z: 0}
+  m_LocalPosition: {x: 11.25, y: -0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38731,11 +38757,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 261741081}
   - {fileID: 86066511}
   - {fileID: 139978739}
   theRB: {fileID: 1774210286}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
 --- !u!136 &1774210285
 CapsuleCollider:
   m_ObjectHideFlags: 0
