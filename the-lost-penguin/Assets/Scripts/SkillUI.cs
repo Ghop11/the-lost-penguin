@@ -16,13 +16,14 @@ public class SkillUI : MonoBehaviour
     public int cost;
     public int levelRequirement;
     public bool isActive = true;
-    public TMP_Text Description, LevelRequirementText, costText; //title,
+    public TMP_Text Description, LevelRequirementText, costText;
+    //public GameObject adjacentNode;
 
     // public GameObject skillTreeMenu;
     void Start()
     {
         //description will be done on UI
-        costText.text = $"Cost: {cost}";
+        costText.text = $"Skill Point Cost: {cost}";
         LevelRequirementText.text = $"Required Level: {levelRequirement}";
     }
 
@@ -56,6 +57,11 @@ public class SkillUI : MonoBehaviour
         //     SkillTree.instance.skillList[connectedSkill].gameObject.SetActive(showNode); //show skill node
         //     SkillTree.instance.connectorList[connectedSkill].SetActive(showNode); //show connectors extending from node
         // }
+    }
+
+    public void PurchaseSkill()
+    {
+        isActive = false;
     }
 
     //done on prefabs
