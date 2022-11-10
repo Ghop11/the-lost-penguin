@@ -9,7 +9,7 @@ public class Pebble : MonoBehaviour
 
     private void Awake()
     {
-        Destroy(gameObject, life);
+        Destroy(gameObject, PlayerStats.instance.pebbleThrowDistance);
     }
 
     private void OnCollisionEnter(Collision collision)

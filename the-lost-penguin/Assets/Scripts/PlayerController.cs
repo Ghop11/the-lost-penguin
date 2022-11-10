@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
 
     public Animator amin;
 
-
     public bool playerKnockedOut;
 
     public void Awake()
@@ -107,9 +106,14 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.F))
             {
-                amin.SetTrigger("shoot");
-                // FIRE Pebble
-                PlayerShot.instance.FirePebble();
+                if (PlayerStats.instance.pebbleCount > 0 && !PlayerHealth.instance.isTakingDamage)
+                {
+                    amin.SetTrigger("shoot");
+                    // FIRE Pebble
+                    PlayerShot.instance.FirePebble();
+                    PlayerStats.instance.PebbleThrown();
+                }
+
             }
         
             // get speed for animation:

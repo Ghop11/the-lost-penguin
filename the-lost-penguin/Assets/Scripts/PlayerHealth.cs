@@ -12,9 +12,14 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth;
 
     private float noDamageCounter;
-    public float noDamageLength = 1f;
+    public float noDamageLength = .5f;
 
+    public Boolean isTakingDamage = false;
     public int lives;
+
+    public GameObject modelDisplay;
+    private float flashCounter;
+    public float flashTime = .1f;
 
     public void Awake()
     {
@@ -35,7 +40,25 @@ public class PlayerHealth : MonoBehaviour
     {
         if (noDamageCounter > 0)
         {
+            if (!isTakingDamage)
+            {
+                isTakingDamage = true;
+            }
+            
             noDamageCounter -= Time.deltaTime;
+            flashCounter -= Time.deltaTime;
+            if (flashCounter <= 0)
+            {
+                flashCounter = flashTime;
+                
+                modelDisplay.SetActive(!modelDisplay.activeSelf);
+            }
+
+            if (noDamageCounter <= 0)
+            {
+                modelDisplay.SetActive(true);
+                isTakingDamage = false;
+            }
         }
     }
 
