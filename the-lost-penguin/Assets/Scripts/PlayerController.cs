@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.F))
             {
-                if (PlayerStats.instance.pebbleCount > 0)
+                if (PlayerStats.instance.pebbleCount > 0 && !PlayerHealth.instance.isTakingDamage)
                 {
                     amin.SetTrigger("shoot");
                     // FIRE Pebble
