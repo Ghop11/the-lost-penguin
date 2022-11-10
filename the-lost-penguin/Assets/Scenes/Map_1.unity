@@ -11913,6 +11913,11 @@ MonoBehaviour:
   currentState: 0
   waitTime: 1
   waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!136 &726252134
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16084,6 +16089,11 @@ MonoBehaviour:
   currentState: 0
   waitTime: 1
   waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!136 &967110499
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18667,7 +18677,6 @@ GameObject:
   - component: {fileID: 1134084660}
   - component: {fileID: 1134084656}
   - component: {fileID: 1134084662}
-  - component: {fileID: 1134084663}
   m_Layer: 0
   m_Name: SeaLoin_Goon
   m_TagString: Goon
@@ -18697,6 +18706,11 @@ MonoBehaviour:
   currentState: 0
   waitTime: 1
   waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0.5
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!4 &1134084658
 Transform:
   m_ObjectHideFlags: 0
@@ -18758,19 +18772,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0.5}
---- !u!135 &1134084663
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134084655}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1137180762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31031,9 +31032,9 @@ MonoBehaviour:
   kentoLevel: 1
   maxLevel: 10
   currentExp: 0
-  pebbleThrowDistance: 0
-  pebbleThrowSpeed: 0
-  pebbleCount: 0
+  pebbleThrowDistance: 0.35
+  pebbleThrowSpeed: 15
+  pebbleCount: 10
   maxPeppleCount: 10
   expBoost: 0
   skillPoints: 10
@@ -38766,6 +38767,11 @@ MonoBehaviour:
   currentState: 0
   waitTime: 1
   waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!136 &1774210285
 CapsuleCollider:
   m_ObjectHideFlags: 0

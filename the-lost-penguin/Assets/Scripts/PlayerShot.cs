@@ -11,17 +11,18 @@ public class PlayerShot : MonoBehaviour
     public GameObject pebblePreFab;
     public float pebbleSpeed;
     public Rigidbody theRB;
-
+    
     private void Awake()
     {
         instance = this;
     }
     
+
     public void FirePebble()
     {
 
         var pebble = Instantiate(pebblePreFab, pebbleSpawnPoint.position, pebbleSpawnPoint.rotation);
-        pebble.GetComponent<Rigidbody>().velocity = pebbleSpawnPoint.forward * pebbleSpeed;
+        pebble.GetComponent<Rigidbody>().velocity = pebbleSpawnPoint.forward * PlayerStats.instance.pebbleThrowSpeed;
         print("Throwing the pebble");
     }
 }
