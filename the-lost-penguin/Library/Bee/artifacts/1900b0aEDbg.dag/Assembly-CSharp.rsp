@@ -384,6 +384,7 @@
 "Assets/Scripts/KnockedOut.cs"
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/Pebble.cs"
+"Assets/Scripts/PickUpThrowables.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerShot.cs"

@@ -106,7 +106,7 @@ public class PlayerStats : MonoBehaviour
     private void IncreaseStats()
     {
         //will adjust in skill tree later
-        pebbleThrowDistance++;
+        pebbleThrowDistance += 0.05f;
         maxPeppleCount += 2;
 
         //update display, as well as some healing for leveling up
