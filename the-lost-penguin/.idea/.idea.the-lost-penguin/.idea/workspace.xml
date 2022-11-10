@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="Kento gets exp when knocking out a goon.">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Currency.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Food.cs" afterDir="false" />
+    <list default="true" id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="Feat: Pebble counter is now working. Hook up the throw speed and distance to playerstats file. Can't throw if there are no pebbles.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.ref.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
@@ -20,6 +22,8 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +133,8 @@
       <workItem from="1666836297285" duration="823000" />
       <workItem from="1666837493733" duration="1940000" />
       <workItem from="1666915606731" duration="1158000" />
+      <workItem from="1668040408628" duration="154000" />
+      <workItem from="1668040996355" duration="8042000" />
     </task>
     <task id="LOCAL-00001" summary="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations">
       <created>1663608484454</created>
@@ -291,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666916475515</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Fix: Refactored Enemy control with new settings. idle, patrolling, chasing, returning&#10;&#10;&#10;&#10;Not finish. It is working now so I am commiting the code just in case I break anything.">
+      <created>1668045481237</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668045481237</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Feat: Pebble counter is now working. Hook up the throw speed and distance to playerstats file. Can't throw if there are no pebbles.">
+      <created>1668048351425</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668048351425</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,8 +346,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations" />
-    <MESSAGE value="Map level 1 - first draft - Example scene. We will need to change it up some; however, it is a good starting point. &#10;&#10;&#10;Changed the animation around and still can't get it to work. I see the param are changing in the animator and all the transitions look good. Only thing is that the animations are not displaying. Still working on that." />
     <MESSAGE value="feat: animation for idle, running, jumping added. &#10;&#10;Next push i'll put in peck (throwing projectile motion) and death (knocked out). &#10;&#10;&#10;After that push I'll be adding a few NPCs that only stays in one spot or walks around." />
     <MESSAGE value="fix: move files needed" />
     <MESSAGE value="feat: Gold coins with animation, removed once collected, collection effect. &#10;&#10;Currently only 5 coins around the map. Will be adding more and a count of how many coins the player has collected" />
@@ -351,6 +369,8 @@
     <MESSAGE value="resolved merge conflicts" />
     <MESSAGE value="Goon is deleted when snowball hits them&#10;&#10;This will be reworked to take damage, faint, and disappear. &#10;&#10;Player can now also take damn when they touch a goon." />
     <MESSAGE value="Kento gets exp when knocking out a goon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kento gets exp when knocking out a goon." />
+    <MESSAGE value="Fix: Refactored Enemy control with new settings. idle, patrolling, chasing, returning&#10;&#10;&#10;&#10;Not finish. It is working now so I am commiting the code just in case I break anything." />
+    <MESSAGE value="Feat: Pebble counter is now working. Hook up the throw speed and distance to playerstats file. Can't throw if there are no pebbles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Pebble counter is now working. Hook up the throw speed and distance to playerstats file. Can't throw if there are no pebbles." />
   </component>
 </project>

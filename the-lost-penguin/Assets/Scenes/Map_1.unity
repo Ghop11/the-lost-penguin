@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1234141811}
-  m_IndirectSpecularColor: {r: 0.4465822, g: 0.4964165, b: 0.5748201, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465829, g: 0.49641728, b: 0.57482105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3156,7 +3156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.551025, y: -11.461975}
+  m_AnchoredPosition: {x: -18.551025, y: -11.461914}
   m_SizeDelta: {x: -1704.451, y: -76.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198915922
@@ -9815,6 +9815,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1565867324}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
       propertyPath: m_Name
       value: Penguin_Animations
@@ -9822,6 +9830,14 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
       propertyPath: m_RootOrder
@@ -11754,7 +11770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 107.142, y: -171}
+  m_AnchoredPosition: {x: 107.14209, y: -171}
   m_SizeDelta: {x: 159.658, y: 47.378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722666638
@@ -11904,11 +11920,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 1362953691}
   - {fileID: 624269547}
   - {fileID: 923099854}
   theRB: {fileID: 726252135}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!136 &726252134
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16071,11 +16096,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 933481670}
   - {fileID: 694346096}
   - {fileID: 371181540}
   theRB: {fileID: 967110500}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!136 &967110499
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18679,11 +18713,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 1171824040}
   - {fileID: 582717207}
   - {fileID: 2091557255}
   theRB: {fileID: 1134084661}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0.5
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!4 &1134084658
 Transform:
   m_ObjectHideFlags: 0
@@ -19436,7 +19479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171824039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.25, y: -0.01, z: 0}
+  m_LocalPosition: {x: 11.25, y: -0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27582,6 +27625,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cd251272cfd8964da13faa24afb4fe6, type: 3}
+--- !u!1 &1353696130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100022, guid: 5bab5f2b863102440853629fc3412d3a, type: 3}
+  m_PrefabInstance: {fileID: 634377836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1357729294
 GameObject:
   m_ObjectHideFlags: 0
@@ -30989,7 +31037,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 50
   noDamageLength: 1
+  isTakingDamage: 0
   lives: 5
+  modelDisplay: {fileID: 1353696130}
+  flashTime: 0.1
 --- !u!114 &1565867326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31005,9 +31056,9 @@ MonoBehaviour:
   kentoLevel: 1
   maxLevel: 10
   currentExp: 0
-  pebbleThrowDistance: 0
-  pebbleThrowSpeed: 0
-  pebbleCount: 0
+  pebbleThrowDistance: 0.35
+  pebbleThrowSpeed: 15
+  pebbleCount: 10
   maxPeppleCount: 10
   expBoost: 0
   skillPoints: 10
@@ -38731,11 +38782,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  turnSpeed: 10
   patrolPoints:
   - {fileID: 261741081}
   - {fileID: 86066511}
   - {fileID: 139978739}
   theRB: {fileID: 1774210286}
+  currentState: 0
+  waitTime: 1
+  waitChance: 20
+  waitBeforeReturning: 1
+  chaseCounter: 0
+  chaseDistance: 7.5
+  chaseSpeed: 5.5
+  loseDistance: 10
 --- !u!136 &1774210285
 CapsuleCollider:
   m_ObjectHideFlags: 0

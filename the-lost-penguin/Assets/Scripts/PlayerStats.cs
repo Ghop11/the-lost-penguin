@@ -13,11 +13,11 @@ public class PlayerStats : MonoBehaviour
     public int expForNextLevel {get; private set;}
     //range of level values for reaching next sequential levels
     public int[] expToNextLevelList { get; private set; }
-    public float pebbleThrowDistance = 0;
-    public float pebbleThrowSpeed = 0;
-    public int pebbleCount = 0;
+    public float pebbleThrowDistance;
+    public float pebbleThrowSpeed;
+    public int pebbleCount;
     public int maxPeppleCount = 10;
-    public int expBoost = 0;
+    public int expBoost;
     public int skillPoints = 10; //can be gained on level up, or completing objectives in the story
 
     /* Skill Tree
@@ -116,4 +116,29 @@ public class PlayerStats : MonoBehaviour
         UIController.instance.UpdateExpDisplay();
         UIController.instance.UpdatePebbleCount();
     }
+
+    public void PebbleThrown()
+    {
+        if (pebbleCount - 1 >= 0)
+        {
+            pebbleCount -= 1;
+            UIController.instance.UpdatePebbleCount();
+        }
+
+    }
+
+    public void PebblePickedUp(int amount)
+    {
+        if (pebbleCount + amount > maxPeppleCount)
+        {
+            pebbleCount = maxPeppleCount;
+        }
+        else
+        {
+            pebbleCount += amount;
+        }
+        UIController.instance.UpdatePebbleCount();
+    }
+
+
 }
