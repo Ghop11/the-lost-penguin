@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,7 +24,8 @@ public class PlayerController : MonoBehaviour
     public Animator amin;
 
     public bool playerKnockedOut;
-
+    private bool isWalking;
+    
     public void Awake()
     {
         instance = this;
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.instance.PlayMusicWithVolume(6, 0.05f);
         cam = FindObjectOfType<CameraController>();
         charCon.Move(new Vector3(0f, Physics.gravity.y * gravityScale * Time.deltaTime, 0f));
         playerKnockedOut = false;
@@ -71,15 +74,39 @@ public class PlayerController : MonoBehaviour
             moveAmount.y = 0f;
             moveAmount = moveAmount.normalized;
 
+
             if (moveAmount.magnitude > .1f)
             {
+
+                if (!isWalking && charCon.isGrounded)
+                {           
+                    print("walking sound");
+                    AudioManager.instance.PlaySFXWithPitch(14, 0.03f, 1.55f);
+                    isWalking = true;
+                }
+                else if (!charCon.isGrounded)
+                {
+                    print("stop the walking sound");
+                    AudioManager.instance.StopThisSFX(14);
+                    isWalking = false;
+                }
                 if (moveAmount != Vector3.zero)
                 {
                     Quaternion newRot = Quaternion.LookRotation(moveAmount);
                     transform.rotation = Quaternion.Slerp(transform.rotation, newRot, rotateSpeed * Time.deltaTime);
                 }
             }
-            
+            else
+            {
+                if (isWalking)
+                {
+                    print("stop the walking sound");
+                    AudioManager.instance.StopThisSFX(14);
+                    isWalking = false;
+                }
+
+            }
+
             moveAmount.y = yStore;
 
             // for actiosn: 
@@ -112,6 +139,7 @@ public class PlayerController : MonoBehaviour
                     // FIRE Pebble
                     PlayerShot.instance.FirePebble();
                     PlayerStats.instance.PebbleThrown();
+                    AudioManager.instance.PlaySFX(6, 0.1f);
                 }
 
             }
