@@ -69,13 +69,22 @@ public class PlayerHealth : MonoBehaviour
             noDamageCounter = noDamageLength;
             
             // Need to add some kind of display that shows Kento took damage and additional damage does not take place
-        
+            
             if (currentHealth - value <= 0)
             {   
                 // Kento is knocked out
                 KnockedOut();
+
             }
-            
+            else
+            {
+                if (currentHealth >= 1)
+                {
+                    AudioManager.instance.PlaySFX(12, 0.15f);
+                }
+
+            }
+
             currentHealth -= value;
             //found a display issue where Kento's Health goes into the negatives
             //if his health isn't a multiple of 10, 
@@ -114,6 +123,8 @@ public class PlayerHealth : MonoBehaviour
     // kento is knocked out
     public void KnockedOut()
     {
+        AudioManager.instance.StopThisSFX(14);
+        AudioManager.instance.PlaySFX(10, 0.15f);
         // Needs to respawn
         LevelManager.instance.Respawn();
         

@@ -30,6 +30,7 @@ public class PickUpThrowables : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerStats.instance.PebblePickedUp(5);
+            AudioManager.instance.PlaySFX(4, 0.1f);
             // startTimer = true;
             // respawnTimer = defaultTimer;
             // StartCoroutine(WaitToRespawn());

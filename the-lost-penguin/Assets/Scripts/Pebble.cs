@@ -16,6 +16,7 @@ public class Pebble : MonoBehaviour
     {
         if (collision.gameObject.tag == "Goon")
         {
+            AudioManager.instance.PlaySFX(7, 0.15f);
             Destroy(collision.gameObject);
             PlayerStats.instance.AddExp(4); // need to figure out a good amount of exp
         }

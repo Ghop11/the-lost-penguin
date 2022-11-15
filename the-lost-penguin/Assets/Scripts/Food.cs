@@ -20,8 +20,8 @@ public class Food : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             PlayerHealth.instance.AddHealth(10);
-
-            //other.gameObject.SetActive(false);
+            AudioManager.instance.PlaySFX(4, 0.1f);
+            //other.gameObject.SetActive(false);            
             Destroy(gameObject);
             
             // give exp points 

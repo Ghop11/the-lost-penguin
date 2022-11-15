@@ -78,6 +78,7 @@ public class PlayerStats : MonoBehaviour
         {
             if(currentExp >= expToNextLevelList[kentoLevel - 1])
             {
+                AudioManager.instance.PlaySFX(15, 0.1f);
                 LevelUp();
                 IncreaseStats();       
             }
