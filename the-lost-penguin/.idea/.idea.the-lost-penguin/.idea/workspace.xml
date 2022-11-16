@@ -2,39 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b34c03c-4a3f-4e6c-a815-6e4937145e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pitch Bend Mixer.mixer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pitch Bend Mixer.mixer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/Danger.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/Danger.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/Level Up.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/Level Up.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/Wind.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/Wind.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/calm_music.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/calm_music.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/collectcoin.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/collectcoin.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/running-on-snow 1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_3D Platformer Assets/Audio/SFX/running-on-snow 1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NewLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NewLevel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.the-lost-penguin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Currency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Currency.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Food.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pebble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pebble.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PickUpThrowables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PickUpThrowables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a0cb3e0651fde083fd7c94dbff6d724f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fd/fdfbdb34ddd022d0282904e444f7bdb8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg-inputdata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag_derived" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag_fsmtime" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aEDbg.dag_fsmtime" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aEDbg.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aEDbg.dag/Assembly-CSharp.dll" afterDir="false" />
@@ -48,10 +28,9 @@
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/BurstCacheManifest.cm" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/BurstCacheManifest.cm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/e273f8cb9c5043cf3804a7c18439fc17.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/e273f8cb9c5043cf3804a7c18439fc17.bhc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
@@ -61,9 +40,8 @@
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +152,8 @@
       <workItem from="1668040996355" duration="8042000" />
       <workItem from="1668098850604" duration="6522000" />
       <workItem from="1668129277365" duration="1927000" />
-      <workItem from="1668468957556" duration="6850000" />
+      <workItem from="1668468957556" duration="7014000" />
+      <workItem from="1668558718608" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="Kento's movement&#10;Camera Movement&#10;Animations (idle) - still need to connect all animations">
       <created>1663608484454</created>
@@ -365,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668129377463</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: Music and SFX added, &#10;&#10;background music with wind&#10;SFX for walking, picking up things, leveling up, throwing, goon hit, and kento's knocked out.">
+      <created>1668478671540</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668478671540</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +386,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: Gold coins with animation, removed once collected, collection effect. &#10;&#10;Currently only 5 coins around the map. Will be adding more and a count of how many coins the player has collected" />
     <MESSAGE value="feat: Rotate camera angle. &#10;&#10;rotate camera angle with key.code R and it will move to the right. Use key.code Q it will move it to the left. &#10;&#10;We can change this but for now this is how to look around the map and get a different perspective. &#10;&#10;The camera rotation transition is a too quick. Next build we can make it smoother. &#10;&#10;Any other ideas to handle it add some comments. We could have the camera follow the direction of kento, but I think this would be more of a mario 64 feel to our game." />
     <MESSAGE value="feat: Respawn script is in place and ready for more code. Disabled key input when Kento is knocked out. Knocked out animation now works. &#10;&#10;-&gt; script file: KnockedOut.cs&#10;&#10;&#10;Need to do: &#10;center kento back to the start when he is knocked out, show a black screen when knocked out, remove life from level manager" />
     <MESSAGE value="fix: add two more files" />
@@ -425,6 +410,7 @@
     <MESSAGE value="Feat: Pebble counter is now working. Hook up the throw speed and distance to playerstats file. Can't throw if there are no pebbles." />
     <MESSAGE value="Pick Up Throwables" />
     <MESSAGE value="More goons, coins, pick up more throwable objects (the respawn as well)" />
-    <option name="LAST_COMMIT_MESSAGE" value="More goons, coins, pick up more throwable objects (the respawn as well)" />
+    <MESSAGE value="feat: Music and SFX added, &#10;&#10;background music with wind&#10;SFX for walking, picking up things, leveling up, throwing, goon hit, and kento's knocked out." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Music and SFX added, &#10;&#10;background music with wind&#10;SFX for walking, picking up things, leveling up, throwing, goon hit, and kento's knocked out." />
   </component>
 </project>
