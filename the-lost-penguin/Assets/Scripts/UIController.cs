@@ -33,6 +33,7 @@ public class UIController : MonoBehaviour
     public GameObject statsMenu;
     //skill tree menu data
     public GameObject skillTreeMenu;
+    public TMP_Text skillPointsText;
     public TMP_Text[] statsData;
 
     
@@ -68,6 +69,17 @@ public class UIController : MonoBehaviour
         OpenOrCloseSkillTree();
     }
 
+    private void PauseGame()
+    {
+        //don't pause game while knocked out
+        //introduces small bugs
+        Time.timeScale = 0;
+    }
+
+    private void ResumeGame()
+    {
+        Time.timeScale = 1;
+    }
 
     public void fadeToBlack()
     {
@@ -125,7 +137,7 @@ public class UIController : MonoBehaviour
         statsData[2].text = $"{PlayerStats.instance.pebbleCount}";
         statsData[3].text = PlayerStats.instance.maxPeppleCount.ToString();
         statsData[4].text = $"{PlayerStats.instance.pebbleThrowDistance}";
-        statsData[5].text = $"{PlayerStats.instance.pebbleThrowSpeed}"; //there's probably a variable like this in a script somewhere...
+        statsData[5].text = $"{PlayerStats.instance.pebbleThrowSpeed}";
         statsData[6].text = $"{PlayerController.instance.moveSpeed}";
         statsData[7].text = $"{PlayerController.instance.jumpForce}";
         statsData[8].text = $"{PlayerStats.instance.expBoost}";
@@ -134,7 +146,11 @@ public class UIController : MonoBehaviour
         statsData[11].text = $"Exp for Level up: {PlayerStats.instance.expForNextLevel - PlayerStats.instance.currentExp}";
     }
 
-    //TODO: Pause game when menu is open
+    public void UpdateSkillPoints()
+    {
+        skillPointsText.text = $"Skill Points: {PlayerStats.instance.skillPoints}";
+    }
+
     private void OpenOrCloseStats()
     {
         //stats menu opening and closing
@@ -144,10 +160,14 @@ public class UIController : MonoBehaviour
             if(!skillTreeMenu.activeInHierarchy)
             {
                 if(statsMenu.activeInHierarchy)
+                {
                     statsMenu.SetActive(false);
+                    ResumeGame();
+                }                    
                 else
                 {
                     UpdateStatsOnMenu();
+                    PauseGame();
                     statsMenu.SetActive(true);
                 }
             }    
@@ -164,10 +184,12 @@ public class UIController : MonoBehaviour
                 if(skillTreeMenu.activeInHierarchy)
                 {
                     skillTreeMenu.SetActive(false);
+                    ResumeGame();
                 }   
                 else
                 {
-                    //SkillUI.instance.UpdateSkillTreeUI();
+                    UpdateSkillPoints();
+                    PauseGame();
                     skillTreeMenu.SetActive(true);
                 }
             }        

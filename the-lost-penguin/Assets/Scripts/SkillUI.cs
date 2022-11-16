@@ -8,78 +8,155 @@ public class SkillUI : MonoBehaviour
 {
     //UI canvas is getting convoluted, so I think it's better to have
     //skill UI be in its own script
-    //[HideInInspector]
-    //public static SkillUI instance;
-    //public int idIndex;
-    
-    //public int[] connectedSkills;
+    public Button button;
     public int cost;
     public int levelRequirement;
-    public bool isActive = true;
-    public TMP_Text Description, LevelRequirementText, costText;
-    //public GameObject adjacentNode;
+    public int skillChoiceToUpgrade;
+    private int numberOfPurchases = 0;
+    private const int PurchaseLimit = 3;
+    private float currentStat;
+    private float afterStat;
+    public TMP_Text Description, LevelRequirementText, costText, beforeAndAfterText;
 
-    // public GameObject skillTreeMenu;
+    enum Skill
+    {
+        JumpHeight,
+        PebbleThrowSpeed,
+        PebbleThrowRange,
+        RunSpeed,
+        ExpBoost
+    }
     void Start()
     {
-        //description will be done on UI
-        costText.text = $"Skill Point Cost: {cost}";
-        LevelRequirementText.text = $"Required Level: {levelRequirement}";
-    }
-
-    // private void Awake()
-    // {
-    //     instance = this;
-    // }
-
-    public void UpdateSkillTreeUI()
-    {
-        //title.text = $"{SkillTree.instance.skillNamesList[id]}";
-        // int levelReq = SkillTree.instance.skillsNodes[idIndex].PlayerLevelRequirement;
-        // int points = SkillTree.instance.skillsNodes[idIndex].Cost;
-
-        // title.text = $"{SkillTree.instance.skillsNodes[idIndex].Title}";
-        // Description.text = $"{SkillTree.instance.skillsNodes[idIndex].Description}";
-        // LevelRequirementText.text = $"Required Level: {levelReq}";
-        // costText.text = $"Cost: {points} points";
-
-
-        // //if player is underleveled or doesn't have enough points, then display approiate colors
-        // if(levelReq > PlayerStats.instance.kentoLevel || points > PlayerStats.instance.skillPoints)
-        //     GetComponent<Image>().color = Color.gray;
-        // else 
-        //     GetComponent<Image>().color = Color.green; //ideally want this hexadecimal: 3C9821
-
-        // //show whether next path is visible to player
-        // foreach(var connectedSkill in connectedSkills)
-        // {
-        //     bool showNode = SkillTree.instance.skillsNodes[idIndex].TreeLevel > 0;
-        //     SkillTree.instance.skillList[connectedSkill].gameObject.SetActive(showNode); //show skill node
-        //     SkillTree.instance.connectorList[connectedSkill].SetActive(showNode); //show connectors extending from node
-        // }
+        DetermineSkill();
+        UpdateSkillUINode();
     }
 
     public void PurchaseSkill()
     {
-        isActive = false;
+        //if(Input.GetButtonDown(string here))
+        if(PlayerStats.instance.kentoLevel >= levelRequirement 
+            && PlayerStats.instance.skillPoints - cost >= 0)
+        {
+            numberOfPurchases++;
+            PlayerStats.instance.skillPoints -= cost;
+            UIController.instance.UpdateSkillPoints();
+            cost++; //increase cost for upgrades; 51 total skill points for all skills
+            levelRequirement++;
+            UpgradeSelectSkill();
+            UpdateSkillUINode();
+        }
     }
 
-    //done on prefabs
-    //have control set to buttons for now
-    //TODO: Some sort of way the player can interact with menu via buttons on keyboard
-    // public void BuySkills()
-    // {
-    //     //
-    //     if(PlayerStats.instance.skillPoints < SkillTree.instance.skillsNodes[idIndex].Cost)
-    //         return;
-    //     PlayerStats.instance.skillPoints -= SkillTree.instance.skillsNodes[idIndex].Cost;
-    //     SkillTree.instance.skillsNodes[idIndex].TreeLevel++;
-    //     SkillTree.instance.UpdateAllSkillUI();
-    // }
+    private void SetUpgradeStats(float stat, float upgradeValue)
+    {
+        currentStat = stat;
+        afterStat = stat + upgradeValue;
+    }
+
+    private void SetUpgradeStats(int stat, int upgradeValue)
+    {
+        currentStat = stat;
+        afterStat = stat + upgradeValue;
+    }
+
+    private void UpgradeSkills(ref float stat, float upgradeValue)
+    {
+        stat += upgradeValue;
+        SetUpgradeStats(stat, upgradeValue);
+    }
+
+    private void UpgradeSkills(ref int stat, int upgradeValue)
+    {
+        stat += upgradeValue;
+        SetUpgradeStats(stat, upgradeValue);
+    }
+    private void DetermineSkill()
+    {
+        switch(skillChoiceToUpgrade)
+        {
+            case (int)Skill.JumpHeight:
+            {
+                SetUpgradeStats(PlayerController.instance.jumpForce, 2f);
+                break;
+            }
+            case (int)Skill.PebbleThrowSpeed:
+            {
+                SetUpgradeStats(PlayerStats.instance.pebbleThrowSpeed, 2f);
+                break;
+            }
+            case (int)Skill.PebbleThrowRange:
+            {
+                SetUpgradeStats(PlayerStats.instance.pebbleThrowDistance, 0.15f);
+                break;
+            }
+            case(int)Skill.RunSpeed:
+            {
+                SetUpgradeStats(PlayerController.instance.moveSpeed, 1f);
+                break;
+            }
+            case(int)Skill.ExpBoost:
+            {
+                SetUpgradeStats(PlayerStats.instance.expBoost, 2);
+                break;
+            }
+        }
+    }
+
+    private void UpgradeSelectSkill()
+    {
+        switch(skillChoiceToUpgrade)
+        {
+            case (int)Skill.JumpHeight:
+            {
+                UpgradeSkills(ref PlayerController.instance.jumpForce, 2f);
+                break;
+            }
+            case (int)Skill.PebbleThrowSpeed:
+            {
+                UpgradeSkills(ref PlayerStats.instance.pebbleThrowSpeed, 2f);         
+                break;
+            }
+            case (int)Skill.PebbleThrowRange:
+            {
+                UpgradeSkills(ref PlayerStats.instance.pebbleThrowDistance, 0.15f);
+                break;
+            }
+            case(int)Skill.RunSpeed:
+            {
+                UpgradeSkills(ref PlayerController.instance.moveSpeed, 1f);
+                break;
+            }
+            case(int)Skill.ExpBoost:
+            {
+                UpgradeSkills(ref PlayerStats.instance.expBoost, 2);
+                break;
+            }
+        }
+    }
+
+    private void UpdateSkillUINode()
+    {
+        if(numberOfPurchases >= PurchaseLimit)
+        {
+            beforeAndAfterText.text = "Max!";
+            levelRequirement = 0;
+            cost = 0;
+        }           
+        else
+            beforeAndAfterText.text = $"{currentStat} --> {afterStat}";
+        //description is done on Unity UI scene
+        costText.text = $"Cost: {cost} point(s)";
+        LevelRequirementText.text = $"Required Level: {levelRequirement}";
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            button.onClick.Invoke(); //setted Purchase skill to OnClick(), in inspector
+        }
     }
 }

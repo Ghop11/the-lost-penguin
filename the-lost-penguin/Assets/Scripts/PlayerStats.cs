@@ -19,15 +19,6 @@ public class PlayerStats : MonoBehaviour
     public int maxPeppleCount = 10;
     public int expBoost;
     public int skillPoints = 10; //can be gained on level up, or completing objectives in the story
-
-    /* Skill Tree
-
-    pebble throw speed
-    pebble distance
-    run speed
-    jump height
-    exp booster
-    */
     
     // Start is called before the first frame update
     void Start()
@@ -58,9 +49,7 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //when kento defeats an enemy, he should get exp
-        //if he finds something, then he should get exp
-        //both enemy and item scripts should have an exp field to be used
+
     }
 
     public void Awake()
@@ -98,15 +87,20 @@ public class PlayerStats : MonoBehaviour
         currentExp -= expToNextLevelList[kentoLevel - 1];
         //update text on screen
         kentoLevel++;
-        skillPoints++; //could increase it by more, or something
+        if(kentoLevel % 2 == 0)
+        {
+            if(kentoLevel == maxLevel)
+                skillPoints++; //would reach number of skill points needed to get everything
+            else
+                skillPoints += 10; //gain points every 2 levels
+        }
+                 
         expForNextLevel = expToNextLevelList[kentoLevel - 1];
         UIController.instance.UpdateExpLevel();
     }
 
     private void IncreaseStats()
     {
-        //will adjust in skill tree later
-        pebbleThrowDistance++;
         maxPeppleCount += 2;
 
         //update display, as well as some healing for leveling up
