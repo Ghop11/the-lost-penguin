@@ -47,6 +47,12 @@ public class AudioManager : MonoBehaviour
             music[7].Play();
         }
     }
+
+    public void PlayOnlyWind()
+    {
+        StopMusic();
+        music[7].Play();
+    }
     
     public void PlayMusicWithVolume(int trackNumber, float volume)
     {
