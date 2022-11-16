@@ -77,12 +77,12 @@ public class SkillUI : MonoBehaviour
         {
             case (int)Skill.JumpHeight:
             {
-                SetUpgradeStats(PlayerController.instance.jumpForce, 2f);
+                SetUpgradeStats(PlayerController.instance.jumpForce, 0.5f);
                 break;
             }
             case (int)Skill.PebbleThrowSpeed:
             {
-                SetUpgradeStats(PlayerStats.instance.pebbleThrowSpeed, 2f);
+                SetUpgradeStats(PlayerStats.instance.pebbleThrowSpeed, 0.3f);
                 break;
             }
             case (int)Skill.PebbleThrowRange:
@@ -90,12 +90,12 @@ public class SkillUI : MonoBehaviour
                 SetUpgradeStats(PlayerStats.instance.pebbleThrowDistance, 0.15f);
                 break;
             }
-            case(int)Skill.RunSpeed:
+            case (int)Skill.RunSpeed:
             {
                 SetUpgradeStats(PlayerController.instance.moveSpeed, 1f);
                 break;
             }
-            case(int)Skill.ExpBoost:
+            case (int)Skill.ExpBoost:
             {
                 SetUpgradeStats(PlayerStats.instance.expBoost, 2);
                 break;
@@ -114,7 +114,7 @@ public class SkillUI : MonoBehaviour
             }
             case (int)Skill.PebbleThrowSpeed:
             {
-                UpgradeSkills(ref PlayerStats.instance.pebbleThrowSpeed, 2f);         
+                UpgradeSkills(ref PlayerStats.instance.pebbleThrowSpeed, 0.3f);         
                 break;
             }
             case (int)Skill.PebbleThrowRange:
@@ -122,12 +122,12 @@ public class SkillUI : MonoBehaviour
                 UpgradeSkills(ref PlayerStats.instance.pebbleThrowDistance, 0.15f);
                 break;
             }
-            case(int)Skill.RunSpeed:
+            case (int)Skill.RunSpeed:
             {
                 UpgradeSkills(ref PlayerController.instance.moveSpeed, 1f);
                 break;
             }
-            case(int)Skill.ExpBoost:
+            case (int)Skill.ExpBoost:
             {
                 UpgradeSkills(ref PlayerStats.instance.expBoost, 2);
                 break;
