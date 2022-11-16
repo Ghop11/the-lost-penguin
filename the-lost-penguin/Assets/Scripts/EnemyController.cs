@@ -30,6 +30,7 @@ public class EnemyController : MonoBehaviour
     public float waitTime, waitChance, waitBeforeReturning, chaseCounter;
     private float waitCounter, returnCounter, chaseWaitCounter;
     public float chaseDistance, chaseSpeed, loseDistance;
+    private bool isDangerMusicPlayer = false;
     
     
 
@@ -89,6 +90,12 @@ public class EnemyController : MonoBehaviour
             case EnemyState.chasing:
                 
                 lookTarget = thePlayer.transform.position;
+                // if (!isDangerMusicPlayer)
+                // {
+                //     // AudioManager.instance.PlayMusicWithVolume(5, 0.5f); // three is a bug, not working
+                //     isDangerMusicPlayer = true;
+                // }
+        
                 
                 if (chaseWaitCounter > 0)
                 {
@@ -108,6 +115,9 @@ public class EnemyController : MonoBehaviour
 
                 if (Vector3.Distance(thePlayer.transform.position, transform.position) > loseDistance)
                 {
+                    // bug, not working correctly
+                    // AudioManager.instance.PlayMusicWithVolume(6, 0.05f);
+                    // isDangerMusicPlayer = false;
                     currentState = EnemyState.returning;
                     returnCounter = waitBeforeReturning;
                 }
