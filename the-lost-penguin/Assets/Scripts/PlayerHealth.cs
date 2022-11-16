@@ -130,7 +130,6 @@ public class PlayerHealth : MonoBehaviour
         
         // needs to get full health
         StartCoroutine(SetFullHealthAfterKnockedOut());
-        
         // needs to lose a life
         // write this code later. 
 
