@@ -109,7 +109,7 @@ public class SkillUI : MonoBehaviour
         {
             case (int)Skill.JumpHeight:
             {
-                UpgradeSkills(ref PlayerController.instance.jumpForce, 2f);
+                UpgradeSkills(ref PlayerController.instance.jumpForce, 0.5f);
                 break;
             }
             case (int)Skill.PebbleThrowSpeed:
