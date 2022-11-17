@@ -364,7 +364,7 @@
 "Assets/Scripts/KnockedOut.cs"
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/MainMenu.cs"
-"Assets/Scripts/NewLevel.cs"
+"Assets/Scripts/MemoryOwl.cs"
 "Assets/Scripts/Pebble.cs"
 "Assets/Scripts/PickUpThrowables.cs"
 "Assets/Scripts/PlayerController.cs"
