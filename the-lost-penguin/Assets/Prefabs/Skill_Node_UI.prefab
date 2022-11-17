@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2676e5d414b26147a529e40a0fc282d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterButton: {fileID: 3594655831917223731}
+  button: {fileID: 3594655831917223731}
   cost: 1
   levelRequirement: 2
   skillChoiceToUpgrade: 0
