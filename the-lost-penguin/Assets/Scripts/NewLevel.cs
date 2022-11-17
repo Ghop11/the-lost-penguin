@@ -9,7 +9,7 @@ public class NewLevel : MonoBehaviour
 
     public static int LevelNeededToAdvance = 7;
     public GameObject expectedText;
-    private String needToLevelUp = "You must be at level" + LevelNeededToAdvance + " to escape";
+    private String needToLevelUp = "You must be at level " + LevelNeededToAdvance + " to escape";
     private String nextMap = "You have reached the end of the beta";
     public TMP_Text message;
     
