@@ -49,9 +49,15 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        DebugExp();
     }
 
+    private void DebugExp()
+    {
+        if(Input.GetKey(KeyCode.J))
+            AddExp(1);
+        print("Exp Debugging");
+    }
     public void Awake()
     {
         instance = this;
