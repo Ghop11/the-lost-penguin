@@ -15,7 +15,7 @@ C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-p
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63565
+57594
 Successfully changed project path to: C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-penguin
 C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-penguin
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/uchen/OneDrive/Desktop/Unity/Unity Projects/the-lost-penguin/the-lost-p
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 178.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,94 +63,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005044 seconds.
+Registered in 0.003351 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 164.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  0.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (976ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (722ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (447ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (347ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011980 seconds.
+Registered in 0.006181 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\uchen\OneDrive\Desktop\Unity\Unity Projects\the-lost-penguin\the-lost-penguin\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\uchen\OneDrive\Desktop\Unity\Unity Projects\the-lost-penguin\the-lost-penguin\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 187.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 153.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.070 seconds
+- Completed reload, in  2.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2071ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (2208ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1712ms)
-			LoadAssemblies (121ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1916ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (509ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (909ms)
+			SetupTypeCache (758ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (771ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (188ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (420ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Failed to load shader (instanceID 556, GUID 493b79ea9c9be44ed8b702014d3ac49c)
 Failed to load shader (instanceID 570, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5191 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (432.6 KB). Loaded Objects now: 5645.
-Memory consumption went from 205.4 MB to 205.0 MB.
-Total: 5.754900 ms (FindLiveObjects: 0.604900 ms CreateObjectMapping: 0.952800 ms MarkObjects: 3.851800 ms  DeleteObjects: 0.343600 ms)
+Unloading 36 unused Assets / (432.2 KB). Loaded Objects now: 5645.
+Memory consumption went from 204.6 MB to 204.2 MB.
+Total: 10.390700 ms (FindLiveObjects: 1.170900 ms CreateObjectMapping: 4.455000 ms MarkObjects: 4.014400 ms  DeleteObjects: 0.749000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,24 +164,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 334.088510 seconds.
-  path: Assets/Prefabs/Skill_UI.prefab
-  artifactKey: Guid(e6abd09cbc682904893eeff6ab403438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skill_UI.prefab using Guid(e6abd09cbc682904893eeff6ab403438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c31957e9618efec671f7fc4ae80d1c') in 0.146438 seconds 
+  Time since last request: 10832.264421 seconds.
+  path: Assets/Goons
+  artifactKey: Guid(c11dd36585b9a9d41bd02184bdbd3f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Goons using Guid(c11dd36585b9a9d41bd02184bdbd3f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca46c1d6a5d24b9ddedf52b75654d49') in 0.023098 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/connector.prefab
-  artifactKey: Guid(443d1aa298006be4f8dbd29afc3363a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/connector.prefab using Guid(443d1aa298006be4f8dbd29afc3363a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153e777161e4cda9f0272d66d101286c') in 0.008604 seconds 
+  Time since last request: 2.839183 seconds.
+  path: Assets/Collection
+  artifactKey: Guid(759d9045939016a47ace7e70aa1270cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collection using Guid(759d9045939016a47ace7e70aa1270cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b063b4b6d940bbb92fbb9056b02b6613') in 0.001972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083932 seconds.
+  path: Assets/Collection/Coin.mat
+  artifactKey: Guid(fba6500e633c4e143aeea0af426a89f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collection/Coin.mat using Guid(fba6500e633c4e143aeea0af426a89f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295a0bdf49358f51faccf67aa5a10c87') in 0.161056 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Prefabs/SnowBallPrefab.prefab
-  artifactKey: Guid(f8c65db6ad6de2849ba1131438e63e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SnowBallPrefab.prefab using Guid(f8c65db6ad6de2849ba1131438e63e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7d26c404af5b86d6665404c01e18d1') in 0.188418 seconds 
+  path: Assets/Collection/Crystal.mat
+  artifactKey: Guid(563026339c764534b87ecfe9ac8a50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collection/Crystal.mat using Guid(563026339c764534b87ecfe9ac8a50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ebc4439e541ac46c4eb9afe3c2997') in 0.018548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Collection/coinSilver.fbx
+  artifactKey: Guid(88c94e3f2849aca40809a0a21c80f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collection/coinSilver.fbx using Guid(88c94e3f2849aca40809a0a21c80f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ebf722c4219ca8f877ca6804b1c507') in 0.114308 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
